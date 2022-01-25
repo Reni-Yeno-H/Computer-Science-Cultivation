@@ -38,6 +38,7 @@ Project constraints:
 - [x] (Simon Hsia) Set time and date for a group meeting with professor on Jan 29th, 2022.
 
 #### Jan 25th-__th, 2022:
+- [x] (Simon Hsia) Testing for Changes in Documentation 
 
 #### Feb __th-__th, 2022:
 
