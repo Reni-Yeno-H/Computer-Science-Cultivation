@@ -2,6 +2,8 @@
 `Objective:` A game based on enhancing the ways students may learn computer science (Java and C++), hosted from a custom-made website. 
 For CISC 4900 with a team of four people to work under an agile development model that matches real work experiences.
 
+To play the game, visit our website by clicking [here](TBA) (TBA) /*under-construction*/.
+
 Tentatively speaking with teaching computer science (may be changed in depth):
 - [ ] Java should cover CISC 1115, CISC 3115, CISC 3130.
 - [ ] C++ should cover CISC 3142.
