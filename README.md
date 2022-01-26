@@ -17,28 +17,40 @@ Project constraints:
 - [x] (Simon Hsia) Ask professor to supervise project via email.
 - [x] New members (Eric and Jacklyn) joined via messenger.
 
-#### Jan 14th-15th, 2022:
+#### January 14th-15th, 2022:
 - [x] More idea development on google docs.
 - [x] (Simon Hsia) Sent proposal to professor mentor for confirmation and resolve confusion.
 
-#### Jan 16th, 2022:
+#### January 16th, 2022:
 - [x] (Hao Ren Yuan) Created discord server for easier contacts and project management.
 
-#### Jan 17th, 2022:
+#### January 17th, 2022:
 - [x] More idea development and suggestions.
 - [x] (Hao Ren Yuan) Started on chracter art sprite creation.
 - [x] Discord meeting and introductions with team members.
 - [x] Downloading neccesities:
     - Unity, Unity desktop, connecting via Github and resolving issues.
 
-#### Jan 18th-22th, 2022:
+#### January 18th-22th, 2022:
 - [x] (Hao Ren Yuan) Expanded on more character art sprites by hairstyle, gender, background, animation moves.
 
-#### Jan 23th-24th, 2022:
+#### January 23th-24th, 2022:
 - [x] (Simon Hsia) Set time and date for a group meeting with professor on Jan 29th, 2022.
 
-#### Jan 25th-__th, 2022:
-- [x] (Simon Hsia) Testing for Changes in Documentation 
+#### January 25th, 2022:
+- [x] (Simon Hsia) Documentation testing.
 
-#### Feb __th-__th, 2022:
+#### January 26th-28th, 2022:
 
+#### January 29th, 2022:
+- [ ] Group meeting with professor.
+
+#### February 1st-__th, 2022:
+#### March 1st-__th, 2022:
+#### April 1st-__th, 2022:
+#### May 1st-__th, 2022:
+#### June 1st-__th, 2022:
+#### July 1st-__th, 2022:
+
+## Deadline: BEFORE May 24th, 2022. -End of Spring Term
+### Hopefully project is live by then. 😅
