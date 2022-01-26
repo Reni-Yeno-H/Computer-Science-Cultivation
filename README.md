@@ -42,7 +42,11 @@ Project constraints:
 #### January 25th, 2022:
 - [x] (Simon Hsia) Documentation testing.
 
-#### January 26th-28th, 2022:
+#### January 26th,2022: 
+- [x] (Hao Ren Yuan) Started and planned out the documentary process on the readme file.
+- [x] (Hao Ren Yuan) Planned out background game events google in docs and started digital event related sprites.
+
+#### January 27th-28th, 2022:
 
 #### January 29th, 2022:
 - [ ] Group meeting with professor.
