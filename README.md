@@ -12,7 +12,7 @@ Project constraints:
 - [ ] Time. ⏲️
 - [ ] Other assignments and life duties. 💼
 
-## Documentation 📝:
+## Documentation/Daily log 📝:
 
 #### Jan 10th-14th, 2022:
 - [x] Idea formulation starting out in google docs.
@@ -44,12 +44,18 @@ Project constraints:
 
 #### January 26th,2022: 
 - [x] (Hao Ren Yuan) Started and planned out the documentary process on the readme file.
-- [x] (Hao Ren Yuan) Planned out background game events google in docs and started digital event related sprites.
+- [x] (Hao Ren Yuan) Planned out background game events google in docs and started texture building sprites.
 
-#### January 27th-28th, 2022:
+#### January 27th, 2022:
+- [x] (Hao Ren Yuan) Started and planned out the documentary process on the readme file.
+
+#### January 28th, 2022:
+- [x] Attended orientation meeting.
+- [x] (Simon Hsia) Has confirmed the project's validity is a go.
+- [x] (Hao Ren Yuan) Continue on texture building sprites and enemy sprites.
 
 #### January 29th, 2022:
-- [ ] Group meeting with professor.
+- [ ] Discord group meeting with professor.
 
 #### February 1st-__th, 2022:
 #### March 1st-__th, 2022:
