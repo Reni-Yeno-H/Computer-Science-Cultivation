@@ -55,11 +55,16 @@ Project constraints:
 - [x] (Hao Ren Yuan) Continue on texture building sprites and enemy sprites.
 
 #### January 29th, 2022:
-- [ ] Discord group meeting with professor.
+- [x] Meeting with professor about project plans and cohesiveness.
 
-#### February 1st-__th, 2022:
 #### February 4th, 2022:
-- [ ] Added basic html file for start of website part of project.
+- [x] (Simon Hsia) Added basic html file for start of website part of project.
+- [x] (Eric and Jacklyn) Worked on different versions of panda sprites.
+- [x] (Hao Ren Yuan) Started and planned out different map art.
+
+#### February 5st-__th, 2022:
+
+
 #### March 1st-__th, 2022:
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
