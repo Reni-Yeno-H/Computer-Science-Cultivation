@@ -58,6 +58,8 @@ Project constraints:
 - [ ] Discord group meeting with professor.
 
 #### February 1st-__th, 2022:
+#### February 4th, 2022:
+- [ ] Added basic html file for start of website part of project.
 #### March 1st-__th, 2022:
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
