@@ -57,12 +57,15 @@ Project constraints:
 #### January 29th, 2022:
 - [x] Meeting with professor about project plans and cohesiveness.
 
-#### February 4th, 2022:
-- [x] (Simon Hsia) Added basic html file for start of website part of project.
-- [x] (Eric and Jacklyn) Worked on different versions of panda sprites.
-- [x] (Hao Ren Yuan) Started and planned out different map art.
+#### January 31th, 2022:
+- [x] All individuals submitted Form 1.
 
-#### February 5st-__th, 2022:
+#### February 4th-8th, 2022:
+- [x] (Simon Hsia) Added basic html file for start of website part of project. (2/4/2022)
+- [x] (Eric and Jacklyn) Worked on different versions of panda sprites/animation art.
+- [x] (Hao Ren Yuan) Started and planned out different map/buildings/character animation art.
+
+#### February 9th-__th, 2022:
 
 
 #### March 1st-__th, 2022:
