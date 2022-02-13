@@ -65,8 +65,10 @@ Project constraints:
 - [x] (Eric and Jacklyn) Worked on different versions of panda sprites/animation art.
 - [x] (Hao Ren Yuan) Started and planned out different map/buildings/character animation art.
 
-#### February 9th-__th, 2022:
+#### February 11th-13th, 2022:
+- [x] (Hao Ren Yuan) Continued on menu animation art and refined project proposal.
 
+#### February 11th-__th, 2022:
 
 #### March 1st-__th, 2022:
 #### April 1st-__th, 2022:
