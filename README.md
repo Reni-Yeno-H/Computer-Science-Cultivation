@@ -66,7 +66,7 @@ Project constraints:
 - [x] (Hao Ren Yuan) Started and planned out different map/buildings/character animation art.
 
 #### February 9th, 2022:
-- [x] All individuals submitted both RRB Waiver and Attestion Forms.
+- [x] All individuals submitted both RRB Waiver and Attestation Forms.
 
 #### February 11th-13th, 2022:
 - [x] (Hao Ren Yuan) Continued on menu animation art and refined project proposal.
