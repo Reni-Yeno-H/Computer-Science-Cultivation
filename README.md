@@ -65,6 +65,9 @@ Project constraints:
 - [x] (Eric and Jacklyn) Worked on different versions of panda sprites/animation art.
 - [x] (Hao Ren Yuan) Started and planned out different map/buildings/character animation art.
 
+#### February 9th, 2022:
+- [x] All individuals submitted both RRB Waiver and Attestion Forms.
+
 #### February 11th-13th, 2022:
 - [x] (Hao Ren Yuan) Continued on menu animation art and refined project proposal.
 
