@@ -16,28 +16,28 @@ Project constraints:
 
 #### Jan 10th-14th, 2022:
 - [x] Idea formulation starting out in google docs.
-- [x] (Simon Hsia) Ask professor to supervise project via email.
+- [x] (Simon Hsia) Ask the professor to supervise our project via email.
 - [x] New members (Eric and Jacklyn) joined via messenger.
 
 #### January 14th-15th, 2022:
 - [x] More idea development on google docs.
-- [x] (Simon Hsia) Sent proposal to professor mentor for confirmation and resolve confusion.
+- [x] (Simon Hsia) Sent proposal to professor mentor for confirmation and resolve any project confusion.
 
 #### January 16th, 2022:
 - [x] (Hao Ren Yuan) Created discord server for easier contacts and project management.
 
 #### January 17th, 2022:
 - [x] More idea development and suggestions.
-- [x] (Hao Ren Yuan) Started on chracter art sprite creation.
+- [x] (Hao Ren Yuan) Started on character art sprite creation.
 - [x] Discord meeting and introductions with team members.
-- [x] Downloading neccesities:
-    - Unity, Unity desktop, connecting via Github and resolving issues.
+- [x] Downloading necessities:
+      -Unity, Unity desktop, connecting via Github, and resolving issues.
 
 #### January 18th-22th, 2022:
 - [x] (Hao Ren Yuan) Expanded on more character art sprites by hairstyle, gender, background, animation moves.
 
 #### January 23th-24th, 2022:
-- [x] (Simon Hsia) Set time and date for a group meeting with professor on Jan 29th, 2022.
+- [x] (Simon Hsia) Set time and date for a group meeting with the supervisor/professor on Jan 29th, 2022.
 
 #### January 25th, 2022:
 - [x] (Simon Hsia) Documentation testing.
@@ -55,13 +55,13 @@ Project constraints:
 - [x] (Hao Ren Yuan) Continue on texture building sprites and enemy sprites.
 
 #### January 29th, 2022:
-- [x] Meeting with professor about project plans and cohesiveness.
+- [x] Meeting with the supervisor/professor about project plans and cohesiveness.
 
 #### January 31th, 2022:
 - [x] All individuals submitted Form 1.
 
 #### February 4th-8th, 2022:
-- [x] (Simon Hsia) Added basic html file for start of website part of project. (2/4/2022)
+- [x] (Simon Hsia) Added basic HTML file for the start of website part of the project. (2/4/2022)
 - [x] (Eric and Jacklyn) Worked on different versions of panda sprites/animation art.
 - [x] (Hao Ren Yuan) Started and planned out different map/buildings/character animation art.
 
