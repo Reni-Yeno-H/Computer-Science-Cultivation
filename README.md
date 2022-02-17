@@ -72,8 +72,8 @@ Project constraints:
 - [x] (Hao Ren Yuan) Continued on menu animation art and refined project proposal.
 
 #### February 14th-17th, 2022:
-- [x] (Simon Hsia) Started out on a dragon sprite. (2/14/2022)
-- [x] (Hao Ren, Simon, Eric, Jacklyn) Started and finished with the proposal and then remodifying it into one.
+- [x] (Simon Hsia) Started on a dragon sprite. (2/14/2022)
+- [x] (Hao Ren, Simon, Eric, Jacklyn) Started and finished with the proposal and then remodifying it into one. A group meeting has been done (2/17/2022). 
 
 #### February __th-__th, 2022:
 
