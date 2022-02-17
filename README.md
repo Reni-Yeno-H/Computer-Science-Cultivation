@@ -16,7 +16,7 @@ Project constraints:
 
 #### Jan 10th-14th, 2022:
 - [x] Idea formulation starting out in google docs.
-- [x] (Simon Hsia) Ask the professor to supervise our project via email.
+- [x] (Simon Hsia) Ask the professor/mentor to supervise our project via email.
 - [x] New members (Eric and Jacklyn) joined via messenger.
 
 #### January 14th-15th, 2022:
