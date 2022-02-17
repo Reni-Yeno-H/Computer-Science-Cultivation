@@ -68,6 +68,9 @@ Project constraints:
 #### February 9th, 2022:
 - [x] All individuals submitted both RRB Waiver and Attestation Forms.
 
+#### February 10th, 2022:
+- [x] (Simon Hsia) Did some research and founds videos on using C# in Unity on youtube.
+
 #### February 11th-13th, 2022:
 - [x] (Hao Ren Yuan) Continued on menu animation art and refined project proposal.
 
