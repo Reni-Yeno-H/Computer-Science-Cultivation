@@ -79,6 +79,11 @@ Project constraints:
 - [x] (Jacklyn) Started naming title for the menu. (2/14/2022)
 - [x] (Hao Ren, Simon, Eric, Jacklyn) Started and finished with the proposal and then remodifying it into one. A group meeting has been done (2/17/2022). 
 
+#### February 18th-19th, 2022:
+- [x] (Simon Hsia) Finished dragon sprite sent to Hao Ren. (2/18/2022)
+- [x] (Simon Hsia) Start on Yeti sprite for snow mountain map. (2/19/2022)
+
+
 #### February 20th-22th, 2022:
 - [x] (Hao Ren Yuan) Continued on background art.
 
