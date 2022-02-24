@@ -76,17 +76,22 @@ Project constraints:
 
 #### February 14th-17th, 2022:
 - [x] (Simon Hsia) Started on a dragon sprite. (2/14/2022)
-- [x] (Jacklyn) Started naming title for the menu. (2/14/2022)
+- [x] (Jacklyn Yoon) Started title animation for the menu. (2/14/2022)
 - [x] (Hao Ren, Simon, Eric, Jacklyn) Started and finished with the proposal and then remodifying it into one. A group meeting has been done (2/17/2022). 
+- [x] (Eric Cao) Finished panda alternative as prop. (2/17/2022)
 
 #### February 18th-19th, 2022:
 - [x] (Simon Hsia) Finished dragon sprite sent to Hao Ren. (2/18/2022)
 - [x] (Simon Hsia) Start on Yeti sprite for snow mountain map. (2/19/2022)
 
+#### February 20th-21th, 2022:
+- [x] (Hao Ren Yuan) Finished on Evergreen Forest map. (2/20/2022 - 2/21/2022)
+- [x] (Jacklyn Yoon) Finished on title animation. (2/21/2022)
 
-#### February 20th-22th, 2022:
-- [x] (Hao Ren Yuan) Continued on background art.
-
+#### February 22th-24th, 2022:
+- [x] (Jacklyn Yoon) Continuing on panda walk and fight animation. (2/22/2022 - 2/24/2022)
+- [x] (Hao Ren Yuan) Researched Creative Common Liscensed music/Finding OST. (2/22/2022 - 2/23/2022)
+- [x] (Hao Ren Yuan) Incorporated Jacklyn's title animation into menu. (2/24/2022)
 
 #### February __th-__th, 2022:
 
