@@ -21,7 +21,7 @@ Project constraints:
 
 #### January 14th-15th, 2022:
 - [x] More idea development on google docs.
-- [x] (Simon Hsia) Sent proposal to professor mentor for confirmation and resolve any project confusion.
+- [x] (Simon Hsia) Sent proposal to supervisor/professor Lach for confirmation and resolve any project confusion.
 
 #### January 16th, 2022:
 - [x] (Hao Ren Yuan) Created discord server for easier contacts and project management.
@@ -55,7 +55,7 @@ Project constraints:
 - [x] (Hao Ren Yuan) Continue on texture building sprites and enemy sprites.
 
 #### January 29th, 2022:
-- [x] Meeting with the supervisor/professor about project plans and cohesiveness.
+- [x] Meeting with the supervisor/professor Lach about project plans and cohesiveness.
 
 #### January 31th, 2022:
 - [x] All individuals submitted Form 1.
@@ -92,6 +92,11 @@ Project constraints:
 - [x] (Jacklyn Yoon) Continuing on panda walk and fight animation. (2/22/2022 - 2/24/2022)
 - [x] (Hao Ren Yuan) Researched Creative Common Liscensed music/Finding OST. (2/22/2022 - 2/23/2022)
 - [x] (Hao Ren Yuan) Incorporated Jacklyn's title animation into menu. (2/24/2022)
+
+#### February 25th-27th, 2022:
+- [x] (Hao Ren Yuan) Finished male stance fighting, injured animation. (2/25/2022 - 2/27/2022)
+- [x] (Hao Ren Yuan) Started on Menu UI. (2/27/2022)
+- [x] Scheduled meeting with supervisor/professor Lach for 2/27/2022
 
 #### February __th-__th, 2022:
 
