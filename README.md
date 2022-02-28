@@ -96,7 +96,7 @@ Project constraints:
 #### February 25th-27th, 2022:
 - [x] (Hao Ren Yuan) Finished male stance fighting, injured animation. (2/25/2022 - 2/27/2022)
 - [x] (Hao Ren Yuan) Started on Menu UI. (2/27/2022)
-- [x] Scheduled meeting with supervisor/professor Lach for 2/27/2022
+- [x] (Simon Hsia) Scheduled meeting with supervisor/professor Lach for 2/27/2022
 
 #### February __th-__th, 2022:
 
