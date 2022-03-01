@@ -103,8 +103,6 @@ Project constraints:
 - [x] (Simon Hsia, Hao Ren Yuan, Jacklyn Yoon, Eric Cao) Had meeting with team and professor Lach for 1 hour (2/28/2022)
 - [x] (Eric Cao) Submitted Desert monster sprite for game (2/28/2022)
 
-#### February __th-__th, 2022:
-
 #### March 1st-__th, 2022:
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
