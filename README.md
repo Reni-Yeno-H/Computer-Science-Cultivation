@@ -98,7 +98,10 @@ Project constraints:
 - [x] (Hao Ren Yuan) Started on Menu UI. (2/27/2022)
 - [x] (Simon Hsia) Finished and submitted Yeti Sprite to Hao Ren (2/27/2022)
 - [x] (Simon Hsia) Scheduled meeting with supervisor/professor Lach for (2/27/2022)
+
+#### February 28th, 2022:
 - [x] (Simon Hsia, Hao Ren Yuan, Jacklyn Yoon, Eric Cao) Had meeting with team and professor Lach for 1 hour (2/28/2022)
+- [x] (Eric Cao) Submitted Desert monster sprite for game (2/28/2022)
 
 #### February __th-__th, 2022:
 
