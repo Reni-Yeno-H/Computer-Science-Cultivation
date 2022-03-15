@@ -103,7 +103,17 @@ Project constraints:
 - [x] (Simon Hsia, Hao Ren Yuan, Jacklyn Yoon, Eric Cao) Had meeting with team and professor Lach for 1 hour (2/28/2022)
 - [x] (Eric Cao) Submitted Desert monster sprite for game (2/28/2022)
 
-#### March 1st-__th, 2022:
+#### March 1st - 6th, 2022:
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) Learning certain parts of web development for Computer Science Cultivation Website
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+#### March 7th - 10th, 2022:
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+#### March 11th- 15th, 2022:
+- [x] (Simon Hsia, Eric Cao) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
