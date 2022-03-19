@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: MovingLayer
+    uniqueID: 4124540103
+    locked: 0
