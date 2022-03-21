@@ -98,6 +98,8 @@ Project constraints:
 - [x] (Hao Ren Yuan) Started on Menu UI. (2/27/2022)
 - [x] (Simon Hsia) Finished and submitted Yeti Sprite to Hao Ren (2/27/2022)
 - [x] (Simon Hsia) Scheduled meeting with supervisor/professor Lach for (2/27/2022)
+- [x] (Hao Ren Yuan) Suggested 2 ideas (scroll or wooden sign) with separate animations for menu UI (for buttons) and democratically decide which is best. 
+<br />Result group pick: Animated Wooden sign (2/27/2022)
 
 #### February 28th, 2022:
 - [x] (Simon Hsia, Hao Ren Yuan, Jacklyn Yoon, Eric Cao) Had meeting with team and professor Lach for 1 hour (2/28/2022)
@@ -105,15 +107,27 @@ Project constraints:
 
 #### March 1st - 6th, 2022:
 - [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) Learning certain parts of web development for Computer Science Cultivation Website
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game)
 - [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+
 #### March 7th - 10th, 2022:
 - [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game)
 - [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+
 #### March 11th- 15th, 2022:
-- [x] (Simon Hsia, Eric Cao) Working on Art Sprites (Maps and Monsters for the game)
+- [x] (Simon Hsia, Eric Cao) Working on Art Sprites (Maps and Monster sprites for the game)
 - [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+
+#### March 18th- 21th, 2022:
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website
+- [x] (Hao Ren Yuan) Suggested 2 position (Center or Top right) for wooden board placement and democratically decide which is best. 
+<br />Result group pick: Top right placement (3/19/2022)
+- [x] (Hao Ren Yuan) Implemented menu animation and background into Unity.
+- [x] (Hao Ren Yuan) Created wooden boarden art and implemented wooden board UI animation into Unity.
+- [x] (Hao Ren Yuan) Added a finished blinking menu animation and falling bamboo leaves effect.
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
