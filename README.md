@@ -106,34 +106,41 @@ Project constraints:
 - [x] (Eric Cao) Submitted Desert monster sprite for game (2/28/2022)
 
 #### March 1st - 6th, 2022:
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) Learning certain parts of web development for Computer Science Cultivation Website
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game)
-- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) Learning certain parts of web development for Computer Science Cultivation Website.
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game).
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity.
 
 #### March 7th - 10th, 2022:
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game)
-- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website.
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Working on Art Sprites (Maps and Monster sprites for the game).
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity.
 
 #### March 11th - 15th, 2022:
 - [x] (Simon Hsia, Eric Cao) Working on Art Sprites (Maps and Monster sprites for the game)
-- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity.
 
 #### March 18th - 20th, 2022:
-- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao) (Continuing) Learning certain parts of web development for Computer Science Cultivation Website.
 - [x] (Hao Ren Yuan) Suggested 2 position (Center or Top right) for wooden board placement and democratically decide which is best. 
-<br />Result group pick: Top right placement (3/19/2022)
+<br />Result group pick: Top right placement (3/19/2022).
 - [x] (Hao Ren Yuan) Implemented menu animation and background into Unity.
 - [x] (Hao Ren Yuan) Created wooden boarden art and implemented wooden board UI animation into Unity.
 - [x] (Hao Ren Yuan) Added a finished blinking menu animation and falling bamboo leaves effect.
-- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity 
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity.
 
 #### March 21, 2022:
 - [x] (Eric Cao) Finished desert rat animation.
 - [x] (Jacklyn Yoon) Finished forest bear animation.
 - [x] (Hao Ren Yuan) Added snowball projectile and extra animation frames for Simon's yeti sprite. 
 - [x] (Hao Ren Yuan) Added fireball projectile and extra animation frames for Simon's dragon sprite. 
-- [x] (Hao Ren Yuan) Final Boss animation prototyping began
+- [x] (Hao Ren Yuan) Final Boss animation prototyping began.
+
+#### March 22th - 25th, 2022:
+- [x] (Eric Cao and Jacklyn Yoon) Learning about Unity.
+- [x] (Hao Ren Yuan) Combined Jacklyn's/Eric's Panda for a throwing attack animation (3/22/2022).
+- [x] (Hao Ren Yuan) Finished credit background image (3/23/2022).
+- [x] (Hao Ren Yuan) Implemented music controller script and added typing sound/sword effect/background music into Unity (3/25/2022).
+- [x] (Hao Ren Yuan) Created BambooVillage scene in Unity (3/25/2022).
 
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
