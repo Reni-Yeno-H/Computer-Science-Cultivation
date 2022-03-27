@@ -141,6 +141,13 @@ Project constraints:
 - [x] (Hao Ren Yuan) Finished credit background image (3/23/2022).
 - [x] (Hao Ren Yuan) Implemented music controller script and added typing sound/sword effect/background music into Unity (3/25/2022).
 - [x] (Hao Ren Yuan) Created BambooVillage scene in Unity (3/25/2022).
+- [x] (Simon Hsia) Researched Questions for game.
+
+#### March 26th, 2022:
+- [x] (Simon Hsia) Researched Questions for game.
+
+#### March 27th, 2022:
+- [x] (Simon Hsia) Finished desert map.
 
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
