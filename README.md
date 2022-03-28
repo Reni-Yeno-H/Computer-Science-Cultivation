@@ -148,6 +148,7 @@ Project constraints:
 
 #### March 27th, 2022:
 - [x] (Simon Hsia) Finished desert map.
+- [x] (Eric Cao) Finished Sandworm monster sprite.
 
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
