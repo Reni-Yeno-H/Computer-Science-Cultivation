@@ -12,6 +12,11 @@ Project constraints:
 - [ ] Time. ⏲️
 - [ ] Other assignments and life duties. 💼
 
+Game Cover Animation:
+
+<img src=https://user-images.githubusercontent.com/70453770/160656743-dc38f1c6-aba3-4fed-86c6-45d05b2d2af8.gif width="400" height="450">
+
+
 ## Documentation/Daily log 📝:
 
 #### Jan 10th - 14th, 2022:
@@ -149,6 +154,9 @@ Project constraints:
 #### March 27th, 2022:
 - [x] (Simon Hsia) Finished desert map.
 - [x] (Eric Cao) Finished Sandworm monster sprite.
+
+#### March 27th, 2022:
+- [x] (Hao Ren Yuan) Added animation to readme file (3/29/2022)
 
 #### April 1st-__th, 2022:
 #### May 1st-__th, 2022:
