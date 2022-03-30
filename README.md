@@ -155,7 +155,7 @@ Game Cover Animation:
 - [x] (Simon Hsia) Finished desert map.
 - [x] (Eric Cao) Finished Sandworm monster sprite.
 
-#### March 27th, 2022:
+#### March 29th, 2022:
 - [x] (Hao Ren Yuan) Added animation to readme file (3/29/2022)
 
 #### April 1st-__th, 2022:
