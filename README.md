@@ -158,7 +158,14 @@ Game Cover Animation:
 #### March 29th, 2022:
 - [x] (Hao Ren Yuan) Added animation to readme file (3/29/2022)
 
-#### April 1st-__th, 2022:
+#### March 30th-31st 2022:
+- [x] (Simon Hsia) Resarched more questions for game
+
+
+#### April 1st-4th, 2022:
+- [x] (Simon Hsia) Started Lava mountain map(4/3/2022)
+- [x] (Eric Cao) Researching more questions and adding to game (4/4/2022)
+- [x] (Simon Hsia) finished lava mountain map (4/4/2022)
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
 #### July 1st-__th, 2022:
