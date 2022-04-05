@@ -166,6 +166,9 @@ Game Cover Animation:
 - [x] (Eric Cao) Researching more questions and adding to game (4/4/2022)
 - [x] (Simon Hsia) finished lava mountain map (4/4/2022)
 
+#### April 5th, 2022:
+- [x] (Hao Ren Yuan) Added buttons and background to Bamboo Village map (4/5/2022)
+
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
 #### July 1st-__th, 2022:
