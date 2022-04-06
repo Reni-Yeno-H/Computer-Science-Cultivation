@@ -169,9 +169,12 @@ Game Cover Animation:
 
 #### April 5th, 2022:
 - [x] (Hao Ren Yuan) Added buttons and background to Bamboo Village map (4/5/2022)
+- [x] (Simon Hsia) Added maps into repostioruy (4/5/2022)
+- [x] (Simon Hsia) More Research on questions for game (4/5/2022)
 
 #### April 6th, 2022:
 - [x] (Hao Ren Yuan) Continued working ton Bamboo Village map (4/6/2022)
+- [x] (Simon Hsia) More Research on questions for game (4/6/2022)
 
 
 #### May 1st-__th, 2022:
