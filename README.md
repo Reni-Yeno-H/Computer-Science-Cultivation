@@ -171,7 +171,7 @@ Game Cover Animation:
 - [x] (Hao Ren Yuan) Added buttons and background to Bamboo Village map (4/5/2022)
 
 #### April 6th, 2022:
-- [x] (Hao Ren Yuan) Added buttons and background to Bamboo Village map (4/5/2022)
+- [x] (Hao Ren Yuan) Continued working ton Bamboo Village map (4/6/2022)
 
 
 #### May 1st-__th, 2022:
