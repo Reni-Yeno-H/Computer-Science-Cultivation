@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 41448633}
   - component: {fileID: 41448632}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.1541, y: -67.3044}
-  m_SizeDelta: {x: 1029.2026, y: 845.6093}
+  m_AnchoredPosition: {x: -22.7675, y: -27.7675}
+  m_SizeDelta: {x: 800.9619, y: 567.7998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41448632
 MonoBehaviour:
@@ -313,8 +313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -63.3, y: 43.7}
-  m_SizeDelta: {x: 148.421, y: 145.7781}
+  m_AnchoredPosition: {x: -102, y: 42.071}
+  m_SizeDelta: {x: 127.9834, y: 119.3294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252119593
 MonoBehaviour:
@@ -595,6 +595,7 @@ RectTransform:
   - {fileID: 252119592}
   - {fileID: 944812180}
   - {fileID: 2145264423}
+  - {fileID: 1899459073}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -616,7 +617,7 @@ GameObject:
   - component: {fileID: 944812182}
   - component: {fileID: 944812181}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SecretCreditButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,13 +635,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1845606040}
-  - {fileID: 1899459073}
   m_Father: {fileID: 746437722}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.5, y: 117.9}
+  m_AnchoredPosition: {x: -202.2, y: 97.406}
   m_SizeDelta: {x: 59.1613, y: 20.8124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944812181
@@ -664,10 +664,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.4096477, g: 0.8584906, b: 0.6901961, a: 1}
-    m_HighlightedColor: {r: 0, g: 1, b: 0.12013221, a: 0.80784315}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.12013221, a: 0.54901963}
     m_PressedColor: {r: 0.6492772, g: 0, b: 1, a: 1}
-    m_SelectedColor: {r: 0.44269443, g: 0.8867924, b: 0.26352793, a: 1}
+    m_SelectedColor: {r: 0.44269443, g: 0.8867924, b: 0.26352793, a: 0.54901963}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.27142859, a: 0.25490198}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 1899459075}
   - component: {fileID: 1899459074}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -925,17 +925,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899459072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 250870538}
-  m_Father: {fileID: 944812180}
-  m_RootOrder: 1
+  m_Father: {fileID: 746437722}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.4, y: -65}
+  m_AnchoredPosition: {x: 55.49997, y: 32.406006}
   m_SizeDelta: {x: 67.1097, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899459074
@@ -959,10 +959,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.0071456432, g: 1, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.048891068, g: 1, b: 0, a: 0.54901963}
+    m_PressedColor: {r: 0.21960783, g: 1, b: 0.9729134, a: 0.5882353}
+    m_SelectedColor: {r: 0.45098042, g: 0.9568628, b: 0.2509804, a: 0.54901963}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1078,7 +1078,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282, y: 37}
+  m_AnchoredPosition: {x: 224.5, y: 32.406006}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145264424
