@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 252119593}
   - component: {fileID: 252119596}
   - component: {fileID: 252119595}
+  - component: {fileID: 252119597}
   m_Layer: 5
   m_Name: MaleCharacter
   m_TagString: Untagged
@@ -544,6 +545,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &252119597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252119591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47b6754877d74a7bb72ce946ed3b694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthBar: {fileID: 1884236279}
 --- !u!1 &742514209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884236277}
   - component: {fileID: 1884236278}
+  - component: {fileID: 1884236279}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: Untagged
@@ -1233,11 +1250,11 @@ RectTransform:
   - {fileID: 850687067}
   - {fileID: 194149288}
   m_Father: {fileID: 746437722}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -272.0374, y: -183.77913}
+  m_AnchoredPosition: {x: -168, y: -129}
   m_SizeDelta: {x: 173.3252, y: 25.4417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884236278
@@ -1291,6 +1308,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1884236279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884236276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6230f949e6a4442079754afe8ea6d332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1 &1899459072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1333,7 @@ GameObject:
   - component: {fileID: 1899459076}
   - component: {fileID: 1899459075}
   - component: {fileID: 1899459074}
+  - component: {fileID: 1899459077}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -1436,6 +1467,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899459072}
   m_CullTransparentMesh: 1
+--- !u!114 &1899459077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899459072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6230f949e6a4442079754afe8ea6d332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1 &2145264422
 GameObject:
   m_ObjectHideFlags: 0

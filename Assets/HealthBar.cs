@@ -7,6 +7,18 @@ public class HealthBar : MonoBehaviour
 {
     
     public Slider slider;
+    Image healthBar;
+    float maxHealth = 100f;
+    public static float health;
+
+    void start(){
+        healthBar = GetComponent<Image>();
+        health = maxHealth;
+    }
+
+    //void Update(){
+    //    healthBar.fillAmount = health/maxHealth;
+    //}
 
     public void SetMaxHealth(int health) 
     {
