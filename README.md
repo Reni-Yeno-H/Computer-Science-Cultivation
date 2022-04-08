@@ -133,7 +133,7 @@ Game Cover Animation:
 - [x] (Hao Ren Yuan) Added a finished blinking menu animation and falling bamboo leaves effect.
 - [x] (Eric Cao, Jacklyn Yoon) Learning about Unity.
 
-#### March 21, 2022:
+#### March 21th, 2022:
 - [x] (Eric Cao) Finished desert rat animation.
 - [x] (Jacklyn Yoon) Finished forest bear animation.
 - [x] (Hao Ren Yuan) Added snowball projectile and extra animation frames for Simon's yeti sprite. 
