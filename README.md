@@ -158,10 +158,10 @@ Game Cover Animation:
 #### March 29th, 2022:
 - [x] (Hao Ren Yuan) Added animation to readme file (3/29/2022)
 
-#### March 30th-31st 2022:
+#### March 30th - 31st 2022:
 - [x] (Simon Hsia) Resarched more questions for game
 
-#### April 1st-4th, 2022:
+#### April 1st - 4th, 2022:
 - [x] (Simon Hsia) Started Lava mountain map(4/3/2022)
 - [x] (Eric Cao) Researching more questions and adding to game (4/4/2022)
 - [x] (Simon Hsia) finished lava mountain map (4/4/2022)
@@ -173,10 +173,12 @@ Game Cover Animation:
 - [x] (Simon Hsia) More Research on questions for game (4/5/2022)
 - [x] (Jacklyn Yoon) Updated Character movement and "Start" button (4/5/2022)
 
-#### April 6th, 2022:
-- [x] (Hao Ren Yuan) Continued working ton Bamboo Village map (4/6/2022)
-- [x] (Simon Hsia) More Research on questions for game (4/6/2022)
-- [x] (Jacklyn Yoon) Continued working ton Bamboo Village map (4/6/2022)
+#### April 6th - 7th, 2022:
+- [x] (Hao Ren Yuan) Continued working ton Bamboo Village map, finished player health system (4/6/2022 - 4/7/2022)
+- [x] (Simon Hsia) More Research on questions for game (4/6/2022 - 4/7/2022)
+- [x] (Jacklyn Yoon) Continued working ton Bamboo Village map (4/6/2022 - 4/7/2022)
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Finished form 2, interm report with logs.
+- [x] (Eric Cao, Jacklyn Yoon) Learning about Unity and research.
 
 
 #### May 1st-__th, 2022:
