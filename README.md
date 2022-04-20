@@ -180,6 +180,16 @@ Game Cover Animation:
 - [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Finished form 2, interm report with logs.
 - [x] (Eric Cao, Jacklyn Yoon) Learning about Unity and research.
 
+#### April 8th - 14th, 2022:
+- [x] (Hao Ren Yuan, Jacklyn Yoon) Continued working on Bamboo Village map, finished player health system (4/8/2022 - 4/12/2022)
+- [x] (Simon Hsia) Started working on Scary Forest map and Monster (4/9/2022)
+- [x] (Simon Hsia) Submitted Scary Forest map and Monster (4/13/2022).
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Had a group meeting in the library (4/14/2022)
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) More Unity Research (4/8/2022 - 4/14/2022)
+
+#### April 15th - 19th, 2022:
+- [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Continued Unity Research and working on scenes of game within Unity (4/15/2022- 4/19/2022)
+#### April 20th, 2022:
 
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
