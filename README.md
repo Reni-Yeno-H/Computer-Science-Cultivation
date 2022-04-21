@@ -189,7 +189,11 @@ Game Cover Animation:
 
 #### April 15th - 19th, 2022:
 - [x] (Simon Hsia, Hao Ren Yuan, Eric Cao, Jacklyn Yoon) Continued Unity Research and working on scenes of game within Unity (4/15/2022- 4/19/2022)
-#### April 20th, 2022:
+#### April 21st, 2022:
+- [x] (Hao Ren Yuan) Started to work on eventchoice map (4/20/2022)
+#### April 21st, 2022:
+- [x] (Simon Hsia) Worked on adding Basic scenes to game Added: Basic Scenes for 7 of the game maps (4/21/2022)
+- [x] (Hao Ren Yuan) Worked on eventchoice map and Assisted Simon in Unity (4/21/2022)
 
 #### May 1st-__th, 2022:
 #### June 1st-__th, 2022:
