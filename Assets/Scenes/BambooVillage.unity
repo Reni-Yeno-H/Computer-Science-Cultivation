@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 295694317}
   - component: {fileID: 295694316}
   - component: {fileID: 295694315}
+  - component: {fileID: 295694318}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -523,7 +524,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 295694316}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 295694318}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &295694316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,6 +575,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295694313}
   m_CullTransparentMesh: 1
+--- !u!114 &295694318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295694313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a247468477ae489d9a8810f25918ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  tutorialQuizManager: {fileID: 684394394}
 --- !u!1 &370509165
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +822,7 @@ GameObject:
   - component: {fileID: 571396068}
   - component: {fileID: 571396067}
   - component: {fileID: 571396066}
+  - component: {fileID: 571396069}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -865,7 +893,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 571396067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 571396069}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &571396067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,6 +944,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571396064}
   m_CullTransparentMesh: 1
+--- !u!114 &571396069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571396064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a247468477ae489d9a8810f25918ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  tutorialQuizManager: {fileID: 684394394}
+--- !u!1 &684394393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 684394395}
+  - component: {fileID: 684394394}
+  m_Layer: 0
+  m_Name: TutorialQuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &684394394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684394393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fa68178a18e4e01b1323dce137d546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Question: What is the brain of the computer?
+    Answers:
+    - Memory
+    - Motherboard
+    - CPU
+    - NIC
+    CorrectAnswer: 3
+  - Question: The action of doing something over and over again, repeating code.
+    Answers:
+    - Code
+    - Loop
+    - Program
+    - Bug
+    CorrectAnswer: 1
+  - Question: A set of instructions that can be performed with or without a computer.
+    Answers:
+    - 'Bug '
+    - Loop
+    - Algorithm
+    - Debig
+    CorrectAnswer: 2
+  options:
+  - {fileID: 295694313}
+  - {fileID: 997293462}
+  - {fileID: 571396064}
+  - {fileID: 770313573}
+  currentQuestion: 0
+  QuestionTxt: {fileID: 370509167}
+--- !u!4 &684394395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684394393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &742514209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,6 +1255,7 @@ GameObject:
   - component: {fileID: 770313577}
   - component: {fileID: 770313576}
   - component: {fileID: 770313575}
+  - component: {fileID: 770313578}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1199,7 +1326,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 770313576}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 571396069}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &770313576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,6 +1377,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770313573}
   m_CullTransparentMesh: 1
+--- !u!114 &770313578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770313573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a247468477ae489d9a8810f25918ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  tutorialQuizManager: {fileID: 684394394}
 --- !u!1 &850687066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1770,7 @@ GameObject:
   - component: {fileID: 997293466}
   - component: {fileID: 997293465}
   - component: {fileID: 997293464}
+  - component: {fileID: 997293467}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1687,7 +1841,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 997293465}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 571396069}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &997293465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,6 +1892,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997293462}
   m_CullTransparentMesh: 1
+--- !u!114 &997293467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997293462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a247468477ae489d9a8810f25918ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  tutorialQuizManager: {fileID: 684394394}
 --- !u!1 &1025146676
 GameObject:
   m_ObjectHideFlags: 0
