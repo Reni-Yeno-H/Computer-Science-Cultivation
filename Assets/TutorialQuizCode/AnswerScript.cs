@@ -28,7 +28,7 @@ public class AnswerScript : MonoBehaviour
         switchImage = GetComponent<Button>().image;
         switchImage.sprite = switchSprites[playerState];
 
-    }*/
+    }
     
     void Start(){
         playerChange = player.GetComponent<Animator>();
@@ -44,7 +44,7 @@ public class AnswerScript : MonoBehaviour
         playerState = 1 - playerState;
         switchImage.sprite = switchSprites[playerState];
     }
-
+*/
     public void Answer()
     {
         if(isCorrect) 
