@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerFighting
+  m_Name: Fighting_Player
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,27 +21,27 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 6fdf4f45aa7464d6dbe46560ed43f87f, type: 3}
-    - time: 0.083333336
+    - time: 0.1
       value: {fileID: 21300000, guid: c1cd073cce6f748d98358987b37cfdd2, type: 3}
-    - time: 0.16666667
+    - time: 0.23333333
       value: {fileID: 21300000, guid: bb8ef984012ed432cb36ab600bbb1e6a, type: 3}
-    - time: 0.25
+    - time: 0.31666666
       value: {fileID: 21300000, guid: 664dec6ff854745baafd2e03ab693a81, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: 64555fae9ed1d4ba289d6fd75f4bc029, type: 3}
     - time: 0.41666666
+      value: {fileID: 21300000, guid: 64555fae9ed1d4ba289d6fd75f4bc029, type: 3}
+    - time: 0.51666665
       value: {fileID: 21300000, guid: fc2449164434b458681cf97a06c351e0, type: 3}
-    - time: 0.5
+    - time: 0.6
       value: {fileID: 21300000, guid: 627786963ad8241fc9160c15915f3314, type: 3}
-    - time: 0.5833333
+    - time: 0.73333335
       value: {fileID: 21300000, guid: 8836890f0517b4973838163deb674b0b, type: 3}
-    - time: 0.6666667
+    - time: 0.8333333
       value: {fileID: 21300000, guid: 6bee867ec6ea249b98546316a33efa41, type: 3}
     attribute: m_Sprite
     path: 
-    classID: 212
-    script: {fileID: 0}
-  m_SampleRate: 12
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,10 +50,10 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: 6fdf4f45aa7464d6dbe46560ed43f87f, type: 3}
@@ -70,12 +70,12 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.75
+    m_StopTime: 0.84999996
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
