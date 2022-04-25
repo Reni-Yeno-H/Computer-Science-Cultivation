@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TutorialQuizManager : MonoBehaviour
 {
+    public GameObject QuestionPanel;
     public List<QuestionAndAnswer> QnA; 
     public GameObject[] options;
     public int currentQuestion;
@@ -48,6 +49,7 @@ public class TutorialQuizManager : MonoBehaviour
         else 
         {
             Debug.Log("Out of Questions");
+            Destroy(QuestionPanel);
         }
        
         
