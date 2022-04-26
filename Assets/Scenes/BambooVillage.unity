@@ -992,19 +992,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionPanel: {fileID: 937182938}
-  Player: {fileID: 784271221}
-  m_Animator: {fileID: 252119595}
   QnA:
   - Question: What is the brain of the computer?
     Answers:
     - Memory
     - Motherboard
-    - CPU
+    - CPU (cor)
     - NIC
     CorrectAnswer: 3
   - Question: The action of doing something over and over again, repeating code.
     Answers:
-    - Code
+    - Code (cor)
     - Loop
     - Program
     - Bug
@@ -1015,13 +1013,13 @@ MonoBehaviour:
     - Loop
     - Algorithm
     - Debig
-    CorrectAnswer: 2
+    CorrectAnswer: 1
   options:
   - {fileID: 295694313}
   - {fileID: 997293462}
   - {fileID: 571396064}
   - {fileID: 770313573}
-  currentQuestion: 0
+  currentQuestion: 1
   QuestionTxt: {fileID: 370509167}
 --- !u!4 &684394395
 Transform:
