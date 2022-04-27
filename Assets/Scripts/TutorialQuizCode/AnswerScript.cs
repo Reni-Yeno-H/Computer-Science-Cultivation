@@ -10,12 +10,20 @@ public class AnswerScript : MonoBehaviour
     public TutorialQuizManager tutorialQuizManager;
     
     public GameObject Player;
-    public Animator m_Animator;
+
+    public GameObject Enemy;
+    public Animator PlayerAnimator;
+
+    public Animator EnemyAnimator;
 
 
     public Transform firePoint;
 
-    public GameObject primaryWeapon;
+    public Transform enemyfirePoint;
+
+    public GameObject playerWeapon;
+
+    public GameObject enemyWeapon;
     
     //[SerializeField] GameObject player;
     //[SerializeField] private Animator playerChange;
@@ -48,7 +56,8 @@ public class AnswerScript : MonoBehaviour
     }
     */
     void Start(){
-        m_Animator = Player.GetComponent<Animator>();
+        PlayerAnimator = Player.GetComponent<Animator>();
+        EnemyAnimator = Enemy.GetComponent<Animator>();
         //m_Animator.SetTrigger("FightToStance");
         
     }
@@ -84,24 +93,27 @@ public class AnswerScript : MonoBehaviour
             //m_Animator.ResetTrigger("Defend_Player");
             Debug.Log("CorrectAnswer");
             tutorialQuizManager.correct();
-            m_Animator.SetTrigger("Fighting_Player");
+            PlayerAnimator.SetTrigger("Fighting_Player");
             //switchImage.sprite = switchSprites[playerState];
             //m_Animator.ResetTrigger("Fighting_Player");
             //m_Animator.ResetTrigger("Defend_Player");
             Shoot();
-            m_Animator.SetTrigger("FightToStance");
+            PlayerAnimator.SetTrigger("FightToStance");
         }
         else 
         {
             //m_Animator.ResetTrigger("Fighting_Player");
             Debug.Log("WrongAnswer");
             tutorialQuizManager.correct();
-            m_Animator.SetTrigger("Defend_Player");
+            EnemyAnimator.SetTrigger("attack");
+            EnemyAnimator.SetTrigger("idle");
+            enemyShoot();
+            PlayerAnimator.SetTrigger("Defend_Player");
             //m_Animator.ResetTrigger("Defend_Player");
             //m_Animator.ResetTrigger("Fighting_Player");
             //switchImage.sprite = switchSprites[playerState];
             //m_Animator.SetTrigger("Stance");
-            m_Animator.SetTrigger("DefendToStance");
+            PlayerAnimator.SetTrigger("DefendToStance");
         }
        //m_Animator.SetTrigger("FightToStance");
         
@@ -114,7 +126,20 @@ public class AnswerScript : MonoBehaviour
         /*if (FiredAudio == null){
                 FiredAudio = GetComponent<AudioSource>();
                 }*/
-        GameObject sword = Instantiate(primaryWeapon, firePoint.position, firePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
+        GameObject sword = Instantiate(playerWeapon, firePoint.position, firePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
+        //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
+        //DestroyImmediate(firedSpark, true);
+    }
+
+
+    void enemyShoot()
+    {
+        //Debug.Log("Shoot");
+        //Instantiate(firedSpark, firePoint.position, firePoint.rotation);
+        /*if (FiredAudio == null){
+                FiredAudio = GetComponent<AudioSource>();
+                }*/
+        GameObject enemyprojectile = Instantiate(enemyWeapon, enemyfirePoint.position, enemyfirePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
         //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
         //DestroyImmediate(firedSpark, true);
     }

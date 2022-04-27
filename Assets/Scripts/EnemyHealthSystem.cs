@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
-    public int maxHealth = 100;
+    //public int maxHealth = 3;
     //public int currentHealth;
     //public EnemyHealthBar healthBar;
     Rigidbody2D rb;
@@ -18,7 +18,7 @@ public class EnemyHealthSystem : MonoBehaviour
     void Start()
     {
         //health=100;
-        healthAmount = 30;
+        healthAmount = 3;
         rb = GetComponent<Rigidbody2D> ();  
         //healthAmount = 20; 
         
@@ -96,7 +96,7 @@ public class EnemyHealthSystem : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name.Equals("SwordProjectile"))
-            healthAmount -= 10;
+            healthAmount -= 1;
     }
 
 

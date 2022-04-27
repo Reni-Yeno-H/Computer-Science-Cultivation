@@ -12,7 +12,7 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        healthAmount = 1;
+        healthAmount = 10;
         rb = GetComponent<Rigidbody2D> ();    
     }
 
@@ -28,6 +28,25 @@ public class HealthSystem : MonoBehaviour
 
     }
 
+    public void TakeDamage(int damage)
+    {
+        healthAmount -= damage;
+        //healthBar.setHealth(currentHealth);
+        if (healthAmount >= 0)
+        {
+            //enemyHitAudio(isSpecialBullet);
+
+        }
+        else
+        {
+
+            //enemyDeathAudio(isSpecialBullet);
+
+            Die();
+            //Plane.GetComponent<Score>().IncrementScore();
+        }
+    }
+
     void FixedUpdate()
     {
         rb.velocity = new Vector2 (dirX, dirY);
@@ -37,6 +56,17 @@ public class HealthSystem : MonoBehaviour
     {
         if(col.gameObject.name.Equals("DummyPanda"))
         healthAmount -= 0.1f;
+    }
+
+    public void Die()
+    {
+
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
+        //anim.SetBool("isDestroyed",true);
+        //StartCoroutine(deathDelay());
+        //Destroy(gameObject,2f);
+        Destroy(gameObject);
+
     }
 
 }
