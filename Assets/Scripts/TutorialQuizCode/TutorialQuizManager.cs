@@ -6,13 +6,15 @@ using UnityEngine.UI;
 public class TutorialQuizManager : MonoBehaviour
 {
     public GameObject QuestionPanel;
+
+
     //public GameObject Player;
     //public Animator m_Animator;
-    public List<QuestionAndAnswer> QnA; 
+    public List<QuestionAndAnswer> QnA;
     public GameObject[] options;
     public int currentQuestion;
 
-    public Text QuestionTxt; 
+    public Text QuestionTxt;
 
     public void Start()
     {
@@ -20,7 +22,7 @@ public class TutorialQuizManager : MonoBehaviour
         //m_Animator = Player.GetComponent<Animator>();
     }
 
-    public void correct() 
+    public void correct()
     {
         //m_Animator.SetTrigger("Fighting_Player");
         QnA.RemoveAt(currentQuestion);
@@ -29,12 +31,12 @@ public class TutorialQuizManager : MonoBehaviour
 
     void SetAnswers()
     {
-        for (int i = 0; i < options.Length; i++) 
+        for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<Text>().text = QnA[currentQuestion].Answers[i];
 
-            if (QnA[currentQuestion].CorrectAnswer == i+1)
+            if (QnA[currentQuestion].CorrectAnswer == i + 1)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
@@ -44,7 +46,7 @@ public class TutorialQuizManager : MonoBehaviour
 
     void generateQuestion()
     {
-        if (QnA.Count > 0) 
+        if (QnA.Count > 0)
         {
             currentQuestion = Random.Range(0, QnA.Count);
             QuestionTxt.text = QnA[currentQuestion].Question;
@@ -55,14 +57,14 @@ public class TutorialQuizManager : MonoBehaviour
             Debug.Log("Out of Questions");
             Destroy(QuestionPanel);
         }*/
-        else{
+        else
+        {
             //Debug.Log("Delete Questions");
             Debug.Log("Out of Questions");
             Destroy(QuestionPanel);
         }
-       
-        
+
+
     }
 
-    
 }

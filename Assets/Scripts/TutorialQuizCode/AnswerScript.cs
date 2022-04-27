@@ -11,6 +11,12 @@ public class AnswerScript : MonoBehaviour
     
     public GameObject Player;
     public Animator m_Animator;
+
+
+    public Transform firePoint;
+
+    public GameObject primaryWeapon;
+    
     //[SerializeField] GameObject player;
     //[SerializeField] private Animator playerChange;
     //[SerializeField] private int playerState;
@@ -82,6 +88,7 @@ public class AnswerScript : MonoBehaviour
             //switchImage.sprite = switchSprites[playerState];
             //m_Animator.ResetTrigger("Fighting_Player");
             //m_Animator.ResetTrigger("Defend_Player");
+            Shoot();
             m_Animator.SetTrigger("FightToStance");
         }
         else 
@@ -98,5 +105,17 @@ public class AnswerScript : MonoBehaviour
         }
        //m_Animator.SetTrigger("FightToStance");
         
+    }
+
+    void Shoot()
+    {
+        //Debug.Log("Shoot");
+        //Instantiate(firedSpark, firePoint.position, firePoint.rotation);
+        /*if (FiredAudio == null){
+                FiredAudio = GetComponent<AudioSource>();
+                }*/
+        GameObject sword = Instantiate(primaryWeapon, firePoint.position, firePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
+        //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
+        //DestroyImmediate(firedSpark, true);
     }
 }
