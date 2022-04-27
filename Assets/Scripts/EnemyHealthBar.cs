@@ -8,6 +8,7 @@ public class EnemyHealthBar : MonoBehaviour
     public Slider slider;
     Image healthBar;
     float maxHealth = 100f;
+
     public static float health;
     
     void start(){
