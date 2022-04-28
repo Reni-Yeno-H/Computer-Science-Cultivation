@@ -714,8 +714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.3493, y: 0.48047}
-  m_SizeDelta: {x: 53.2282, y: 25.409}
+  m_AnchoredPosition: {x: 6.329, y: 0.48047}
+  m_SizeDelta: {x: 16.1446, y: 25.409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550431450
 MonoBehaviour:
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   - {fileID: 997293462}
   - {fileID: 571396064}
   - {fileID: 770313573}
-  currentQuestion: 1
+  currentQuestion: 0
   QuestionTxt: {fileID: 370509167}
 --- !u!4 &684394395
 Transform:
@@ -3469,7 +3469,7 @@ PrefabInstance:
       objectReference: {fileID: 1884236279}
     - target: {fileID: 7987686155066582904, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7987686155066582904, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: maxHealth
