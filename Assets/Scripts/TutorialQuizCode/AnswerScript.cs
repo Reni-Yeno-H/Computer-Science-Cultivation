@@ -10,12 +10,14 @@ public class AnswerScript : MonoBehaviour
     public TutorialQuizManager tutorialQuizManager;
     
     public GameObject Player;
-
     public GameObject Enemy;
+    public GameObject correct;
+    public GameObject wrong;
+
     public Animator PlayerAnimator;
-
     public Animator EnemyAnimator;
-
+    public Animator CorrectLetteringAnimator;
+    public Animator WrongLetteringAnimator;
 
     public Transform firePoint;
 
@@ -58,6 +60,8 @@ public class AnswerScript : MonoBehaviour
     void Start(){
         PlayerAnimator = Player.GetComponent<Animator>();
         EnemyAnimator = Enemy.GetComponent<Animator>();
+        CorrectLetteringAnimator = correct.GetComponent<Animator>();
+        WrongLetteringAnimator = wrong.GetComponent<Animator>();
         //m_Animator.SetTrigger("FightToStance");
         
     }
@@ -90,6 +94,8 @@ public class AnswerScript : MonoBehaviour
         //m_Animator.ResetTrigger("Defend_Player");
         if(isCorrect) 
         {
+            
+            CorrectLetteringAnimator.SetTrigger("CorrectPopUp");
             //m_Animator.ResetTrigger("Defend_Player");
             Debug.Log("CorrectAnswer");
             tutorialQuizManager.correct();
@@ -98,11 +104,14 @@ public class AnswerScript : MonoBehaviour
             //m_Animator.ResetTrigger("Fighting_Player");
             //m_Animator.ResetTrigger("Defend_Player");
             Shoot();
+            //CorrectLetteringAnimator.SetTrigger("correctIdle");
             PlayerAnimator.SetTrigger("FightToStance");
+            CorrectLetteringAnimator.SetTrigger("CorrectIdle");
         }
         else 
         {
             //m_Animator.ResetTrigger("Fighting_Player");
+            WrongLetteringAnimator.SetTrigger("WrongPopUp");
             Debug.Log("WrongAnswer");
             tutorialQuizManager.correct();
             EnemyAnimator.SetTrigger("attack");
@@ -113,7 +122,9 @@ public class AnswerScript : MonoBehaviour
             //m_Animator.ResetTrigger("Fighting_Player");
             //switchImage.sprite = switchSprites[playerState];
             //m_Animator.SetTrigger("Stance");
+            //WrongLetteringAnimator.SetTrigger("wrongIdle");
             PlayerAnimator.SetTrigger("DefendToStance");
+            WrongLetteringAnimator.SetTrigger("WrongIdle");
         }
        //m_Animator.SetTrigger("FightToStance");
         
@@ -121,6 +132,8 @@ public class AnswerScript : MonoBehaviour
 
     void Shoot()
     {
+        //CorrectLetteringAnimator.SetTrigger("CorrectPopUp");
+        //CorrectLetteringAnimator.SetTrigger("CorrectIdle");
         //Debug.Log("Shoot");
         //Instantiate(firedSpark, firePoint.position, firePoint.rotation);
         /*if (FiredAudio == null){
@@ -129,11 +142,13 @@ public class AnswerScript : MonoBehaviour
         GameObject sword = Instantiate(playerWeapon, firePoint.position, firePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
         //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
         //DestroyImmediate(firedSpark, true);
+        //CorrectLetteringAnimator.SetTrigger("correctIdle");
     }
 
 
     void enemyShoot()
     {
+        //WrongLetteringAnimator.SetTrigger("WrongPopUp");
         //Debug.Log("Shoot");
         //Instantiate(firedSpark, firePoint.position, firePoint.rotation);
         /*if (FiredAudio == null){
@@ -142,5 +157,6 @@ public class AnswerScript : MonoBehaviour
         GameObject enemyprojectile = Instantiate(enemyWeapon, enemyfirePoint.position, enemyfirePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
         //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
         //DestroyImmediate(firedSpark, true);
+        //WrongLetteringAnimator.SetTrigger("WrongIdle");
     }
 }

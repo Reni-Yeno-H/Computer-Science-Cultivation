@@ -146,6 +146,8 @@ MonoBehaviour:
   damage: 1
   rb: {fileID: 745671592188713750}
   impactEffect: {fileID: 3533964951773110567, guid: 1c50b9b53c40e45518e5f1c5c3bb542a, type: 3}
+  wrong: {fileID: 298894944811782907, guid: c20f414e766a649a38d18f36a8ab5876, type: 3}
+  WrongLetteringAnimator: {fileID: 298894944811782905, guid: c20f414e766a649a38d18f36a8ab5876, type: 3}
 --- !u!50 &745671592188713750
 Rigidbody2D:
   serializedVersion: 4
