@@ -704,8 +704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.55202, y: 0.0000019073}
-  m_SizeDelta: {x: 149.1, y: 35.4817}
+  m_AnchoredPosition: {x: 112.75, y: -4.8589044}
+  m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295694315
 MonoBehaviour:
@@ -1085,8 +1085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.548004, y: -35.964}
-  m_SizeDelta: {x: 149.1, y: 35.4817}
+  m_AnchoredPosition: {x: -151.31, y: -59.52333}
+  m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571396066
 MonoBehaviour:
@@ -1239,26 +1239,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   QuestionPanel: {fileID: 937182938}
   QnA:
-  - Question: What is the brain of the computer?
+  - Question: "What is the correct way to print \u201CHi my name is Bob.\u201D in
+      Java?"
     Answers:
-    - Memory
-    - Motherboard
-    - CPU (cor)
-    - NIC
+    - System.out.println("Hi my name is Bob!");
+    - System.out.print("Hi my name is Bob?");
+    - System.out.println("Hi my name is Bob.");
+    - System.out.print("Hi my name is Sam.");
     CorrectAnswer: 3
-  - Question: The action of doing something over and over again, repeating code.
+  - Question: What is the proper way to  write a int variable in Java?
     Answers:
-    - Code (cor)
-    - Loop
-    - Program
-    - Bug
+    - int num = 7;
+    - int i = 4
+    - string num = 7;
+    - int[ ] apples = 1;
     CorrectAnswer: 1
-  - Question: A set of instructions that can be performed with or without a computer.
+  - Question: What is the proper way to write a double variable in Java?
     Answers:
-    - Bug (cor)
-    - Loop
-    - Algorithm
-    - Debig
+    - double half = 0.5;
+    - 'double hi = 3; '
+    - double CS = 8;
+    - double[ ] tree = {1.0,2.3};
+    CorrectAnswer: 1
+  - Question: What is the proper way to write a string variable in Java?
+    Answers:
+    - 'String t = hi '
+    - "string words = \u201Csomething\u201D; "
+    - "String welcome= \u201CComputerScienceStudent\u201D;"
+    - "string k = \u201CSecrets\u201D "
+    CorrectAnswer: 3
+  - Question: Which for loop prints out hi 5 times?
+    Answers:
+    - "for (int i = 0; i < 5; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 12; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 10; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 5; i++) { \tsystem.out.println(\u201CTheAnswer\u201D);
+      } "
     CorrectAnswer: 1
   options:
   - {fileID: 295694313}
@@ -1535,8 +1551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.552, y: -35.963997}
-  m_SizeDelta: {x: 149.1, y: 35.4817}
+  m_AnchoredPosition: {x: 112.74634, y: -59.523}
+  m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &770313575
 MonoBehaviour:
@@ -1785,7 +1801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &805263415
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2451,8 +2467,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.548004, y: 0}
-  m_SizeDelta: {x: 149.1, y: 35.4817}
+  m_AnchoredPosition: {x: -151.3039, y: -4.859}
+  m_SizeDelta: {x: 214.3522, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997293464
 MonoBehaviour:
@@ -2688,7 +2704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.700012, y: 56.135}
+  m_AnchoredPosition: {x: -14.700012, y: 51.583}
   m_SizeDelta: {x: 48.8276, y: 54.3333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133550048
@@ -2919,8 +2935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.1857, y: -0.50349}
-  m_SizeDelta: {x: 49.6873, y: 26.417}
+  m_AnchoredPosition: {x: 3.2525, y: -0.50349}
+  m_SizeDelta: {x: 30.3684, y: 26.417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1753095295
 SpriteRenderer:
@@ -3664,18 +3680,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1899459072}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 805263414}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

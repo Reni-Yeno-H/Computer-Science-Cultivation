@@ -22,9 +22,9 @@ public class EnemyHealthSystem : MonoBehaviour
     void Start()
     {
         //health=100;
-        healthAmount = 3;
+        healthAmount = 5;
         rb = GetComponent<Rigidbody2D> ();  
-        NextSceneButton.SetActive(false);
+        //NextSceneButton.SetActive(false);
         //healthAmount = 20; 
         
     }
@@ -78,6 +78,7 @@ public class EnemyHealthSystem : MonoBehaviour
         //StartCoroutine(deathDelay());
         //Destroy(gameObject,2f);
         Destroy(gameObject);
+        NextSceneButton.gameObject.SetActive(true);
 
     }
 
@@ -88,9 +89,9 @@ public class EnemyHealthSystem : MonoBehaviour
         dirY = Input.GetAxis("Vertical") * moveSpeed;
 
         if (healthAmount <= 0)
-            Destroy(gameObject);
+            Die();
         //if (isDead == true)
-            NextSceneButton.gameObject.SetActive(true);
+            
             //Debug.Log("Map Enemy Dead.");
     
     }
