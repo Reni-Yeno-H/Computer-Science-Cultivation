@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class EnemyHealthSystem : MonoBehaviour
     float dirX, dirY;
     float moveSpeed = 5f;
     public static float healthAmount;
+    public GameObject NextSceneButton;
+    //bool isDead = false;
+    //public int Respawn;
     //public int health;
 
     // Start is called before the first frame update
@@ -20,6 +24,7 @@ public class EnemyHealthSystem : MonoBehaviour
         //health=100;
         healthAmount = 3;
         rb = GetComponent<Rigidbody2D> ();  
+        NextSceneButton.SetActive(false);
         //healthAmount = 20; 
         
     }
@@ -84,8 +89,10 @@ public class EnemyHealthSystem : MonoBehaviour
 
         if (healthAmount <= 0)
             Destroy(gameObject);
-
-
+        //if (isDead == true)
+            NextSceneButton.gameObject.SetActive(true);
+            //Debug.Log("Map Enemy Dead.");
+    
     }
 
     void FixedUpdate()
@@ -98,6 +105,10 @@ public class EnemyHealthSystem : MonoBehaviour
         if (col.gameObject.name.Equals("SwordProjectile"))
             healthAmount -= 1;
     }
+
+    /*public void nextScene(){
+        SceneManager.LoadScene(Respawn);
+    }*/
 
 
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class HealthSystem : MonoBehaviour
             //enemyDeathAudio(isSpecialBullet);
 
             Die();
+            
             //Plane.GetComponent<Score>().IncrementScore();
         }
     }
@@ -66,7 +68,15 @@ public class HealthSystem : MonoBehaviour
         //StartCoroutine(deathDelay());
         //Destroy(gameObject,2f);
         Destroy(gameObject);
+        restartLevel();
 
+    }
+
+    public void restartLevel(){
+        int level = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(level);
+        //SceneManager.LoadScene(Respawn);
+        
     }
 
 }

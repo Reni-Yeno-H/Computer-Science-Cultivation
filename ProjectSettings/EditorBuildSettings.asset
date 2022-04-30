@@ -8,4 +8,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BambooVillage.unity
+    guid: c7567b0eaa75e43848bd5896a1000bf7
+  - enabled: 1
+    path: Assets/Scenes/BambooForest.unity
+    guid: d671279bb302a447c943b2bb6f2f0632
+  - enabled: 1
+    path: Assets/Scenes/EvergreenForest.unity
+    guid: 8239cb1269b622f42aa64a31e685d8bc
+  - enabled: 1
+    path: Assets/Scenes/EventOption.unity
+    guid: b0882147a05d64a58b2dde8222bcdef1
+  - enabled: 1
+    path: Assets/Scenes/ScaryForest.unity
+    guid: 2cda625c939694c43a01e3fe60e8f38d
+  - enabled: 1
+    path: Assets/Scenes/Snow.unity
+    guid: 25603294b01fdf847b114a8bd83df143
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: 158fad529127dbc45a17471a528004b6
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: d03edabc3ddf8cc4eb1fcb1f57d73693
+  - enabled: 1
+    path: Assets/Scenes/LavaMountain.unity
+    guid: ad25e97f8d470144d94b66beb8ba1cd0
   m_configObjects: {}
