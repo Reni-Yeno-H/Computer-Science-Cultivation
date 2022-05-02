@@ -498,6 +498,18 @@ PrefabInstance:
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765942972755668, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: staticScore
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942972755668, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: calculatedEnemies
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942972755668, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: totalAmountOfEnemies
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765943399041812, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
       value: 

@@ -86,7 +86,7 @@ public class EnemyHealthSystem : MonoBehaviour
     {
         healthAmount -= damage;
         //healthBar.setHealth(currentHealth);
-        if (healthAmount >= 0)
+        /*if (healthAmount >= 0)
         {
             //enemyHitAudio(isSpecialBullet);
 
@@ -96,9 +96,14 @@ public class EnemyHealthSystem : MonoBehaviour
 
             //enemyDeathAudio(isSpecialBullet);
 
+            
+            Player.GetComponent<Score>().IncrementScore();
             Die();
-            Player.GetComponent<HealthSystem>().IncrementScore();
             //Plane.GetComponent<Score>().IncrementScore();
+        }*/
+        if(healthAmount <= 0){
+            Die();
+            Player.GetComponent<Score>().IncrementScore();
         }
     }
 
