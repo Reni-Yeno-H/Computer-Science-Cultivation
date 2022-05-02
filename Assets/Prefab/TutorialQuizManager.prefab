@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7566733019864603301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7566733019864603303}
+  - component: {fileID: 7566733019864603302}
+  m_Layer: 0
+  m_Name: TutorialQuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7566733019864603303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7566733019864603301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7566733019864603302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7566733019864603301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fa68178a18e4e01b1323dce137d546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestionPanel: {fileID: 0}
+  QnA:
+  - Question: "What is the correct way to print \u201CHi my name is Bob.\u201D in
+      Java?"
+    Answers:
+    - System.out.println("Hi my name is Bob!");
+    - System.out.print("Hi my name is Bob?");
+    - System.out.println("Hi my name is Bob.");
+    - System.out.print("Hi my name is Sam.");
+    CorrectAnswer: 3
+  - Question: What is the proper way to  write a int variable in Java?
+    Answers:
+    - int num = 7;
+    - int i = 4
+    - string num = 7;
+    - int[ ] apples = 1;
+    CorrectAnswer: 1
+  - Question: What is the proper way to write a double variable in Java?
+    Answers:
+    - double half = 0.5;
+    - 'double hi = 3; '
+    - double CS = 8;
+    - double[ ] tree = {1.0,2.3};
+    CorrectAnswer: 1
+  - Question: What is the proper way to write a string variable in Java?
+    Answers:
+    - 'String t = hi '
+    - "string words = \u201Csomething\u201D; "
+    - "String welcome = \u201CComputerScienceStudent\u201D;"
+    - "string k = \u201CSecrets\u201D "
+    CorrectAnswer: 3
+  - Question: Which for loop prints out hi 5 times?
+    Answers:
+    - "for (int i = 0; i < 5; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 12; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 10; i++) { \tsystem.out.println(\u201Chi\u201D); } "
+    - "for (int i = 0; i < 5; i++) { \tsystem.out.println(\u201CTheAnswer\u201D);
+      } "
+    CorrectAnswer: 1
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  QuestionTxt: {fileID: 0}
