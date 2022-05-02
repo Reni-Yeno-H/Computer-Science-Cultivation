@@ -31,6 +31,34 @@ public class EnemyHealthSystem : MonoBehaviour
             Player = GameObject.FindGameObjectWithTag("MaleCharacter");
         
     }
+    // Update is called once per frame
+    void Update()
+    {
+        dirX = Input.GetAxis("Horizontal") * moveSpeed;
+        dirY = Input.GetAxis("Vertical") * moveSpeed;
+
+        if (healthAmount <= 0)
+            Die();
+        //if (isDead == true)
+            
+            //Debug.Log("Map Enemy Dead.");
+    
+    }
+
+    void FixedUpdate()
+    {
+        rb.velocity = new Vector2(dirX, dirY);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name.Equals("SwordProjectile"))
+            healthAmount -= 1;
+    }
+
+    /*public void nextScene(){
+        SceneManager.LoadScene(Respawn);
+    }*/
 
     /*void Start()
     {
@@ -85,35 +113,6 @@ public class EnemyHealthSystem : MonoBehaviour
         NextSceneButton.gameObject.SetActive(true);
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        dirX = Input.GetAxis("Horizontal") * moveSpeed;
-        dirY = Input.GetAxis("Vertical") * moveSpeed;
-
-        if (healthAmount <= 0)
-            Die();
-        //if (isDead == true)
-            
-            //Debug.Log("Map Enemy Dead.");
-    
-    }
-
-    void FixedUpdate()
-    {
-        rb.velocity = new Vector2(dirX, dirY);
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.name.Equals("SwordProjectile"))
-            healthAmount -= 1;
-    }
-
-    /*public void nextScene(){
-        SceneManager.LoadScene(Respawn);
-    }*/
 
 
 }

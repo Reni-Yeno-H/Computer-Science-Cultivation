@@ -25,6 +25,8 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        score = PlayerPrefs.GetInt("score");
+        staticScore = PlayerPrefs.GetInt("score");
         healthAmount = 10;
         rb = GetComponent<Rigidbody2D> ();  
 
@@ -129,15 +131,6 @@ public class HealthSystem : MonoBehaviour
         IncrementScore(1);
     }
 
-    public void DisplayPlayerHealth()
-    {
-        float playerHealth = healthAmount;
-        // Debug.Log(playerHealth + "abc");
-        // Debug.Log("before");
-        playerText.text = "Health: " + playerHealth;
-        // Debug.Log("after");
-    }
-
     public void DisplayScore()
     {
         scoreText.text = "Score: " + score;
@@ -192,6 +185,15 @@ public class HealthSystem : MonoBehaviour
         levelText.text = "Level " + seventhLevelDisplayNum;
         }
 
+    }
+
+    public void DisplayPlayerHealth()
+    {
+        float playerHealth = healthAmount;
+        // Debug.Log(playerHealth + "abc");
+        // Debug.Log("before");
+        playerText.text = "Health: " + playerHealth;
+        // Debug.Log("after");
     }
 
 }
