@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 7987686155066582904}
   - component: {fileID: 7987686155066582907}
   - component: {fileID: 7987686155066582906}
-  - component: {fileID: 6819506647895525580}
   m_Layer: 5
   m_Name: MaleCharacter
   m_TagString: Untagged
@@ -148,6 +147,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 285365d99f45347cb8c0fb8d5a63a923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 7987686155066582898}
+  score: 0
+  staticScore: 0
+  totalAmountOfEnemies: 1
+  scoreText: {fileID: 0}
+  levelText: {fileID: 0}
+  playerText: {fileID: 0}
+  calculatedEnemies: 0
 --- !u!61 &7987686155066582906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,23 +181,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 38.189728, y: 94.00902}
   m_EdgeRadius: 0
---- !u!114 &6819506647895525580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7987686155066582898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d34b0cc70c1465e962f3d4275f983f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  staticScore: 0
-  totalAmountOfEnemies: 1
-  levelText: {fileID: 0}
-  scoreText: {fileID: 0}
-  healthText: {fileID: 0}
-  Player: {fileID: 7987686155066582898}
-  calculatedEnemies: 0
