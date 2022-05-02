@@ -8,14 +8,14 @@ public class Score : MonoBehaviour
 {
     [SerializeField] int score = 0;
     [SerializeField] int staticScore = 0;
-    [SerializeField] int totalAmountOfEnemies = 1;
-    
-    [SerializeField] Text levelText;
+    [SerializeField] int totalAmountOfEnemies = 6;
+    public AudioSource missionComplete;
     [SerializeField] Text scoreText;
-    [SerializeField] Text healthText;
+    [SerializeField] Text sceneText;
+    [SerializeField] Text playerText;
 
-    public GameObject Player;
-    //public int Respawn;
+    public GameObject Plane;
+    public int Respawn;
     public int calculatedEnemies;
     //int lastScoreUncalculated;
     // Start is called before the first frame update
@@ -57,12 +57,12 @@ public class Score : MonoBehaviour
             PlayerPrefs.SetInt("score", score);
             DisplayScore(); 
             
-        /*if (score == calculatedEnemies)
+        if (score == calculatedEnemies)
         {
             missionComplete = GetComponent<AudioSource>();
             AudioSource.PlayClipAtPoint(missionComplete.clip, transform.position);
             Invoke("nextScene", 2f);
-        } */
+        } 
         // if(level == 0 || level >= 5)
         // {
         //     reset();
@@ -85,62 +85,37 @@ public class Score : MonoBehaviour
         int firstLevelDisplayNum = 1;
         int secondLevelDisplayNum = 2;
         int thirdLevelDisplayNum = 3;
-        int fourthLevelDisplayNum = 4;
-        int fifthLevelDisplayNum = 5;
-        int sixthLevelDisplayNum = 6;
-        int seventhLevelDisplayNum = 7;
-        //int eigthLevelDisplayNum = 8;
 
         int sceneNum = SceneManager.GetActiveScene().buildIndex;
         //int level = SceneManager.GetActiveScene().buildIndex;
         //int levelScene = SceneManager.GetSceneAt(sceneNum);
-        if (sceneNum == 1)
+        if (sceneNum == 1 || sceneNum == 6 || sceneNum == 9)
         {
-        //levelText.text = "Level " + level;
-        levelText.text = "Level " + firstLevelDisplayNum;
+        //sceneText.text = "Level " + level;
+        sceneText.text = "Level " + firstLevelDisplayNum;
         }
-        if (sceneNum == 2)
+        if (sceneNum == 2 || sceneNum == 7 || sceneNum == 10)
         {
-        levelText.text = "Level " + secondLevelDisplayNum;
+        sceneText.text = "Level " + secondLevelDisplayNum;
         }
-        if (sceneNum == 3)
+        if (sceneNum == 3 || sceneNum == 8 || sceneNum == 11)
         {
-        levelText.text = "Level " + thirdLevelDisplayNum;
-        }
-        /*if (sceneNum == 4) 4th is event option
-        {
-        
-        }*/
-        if (sceneNum == 5 || sceneNum == 7)
-        {
-        levelText.text = "Level " + fourthLevelDisplayNum;
-        }
-        if (sceneNum == 6 || sceneNum == 8)
-        {
-        levelText.text = "Level " + fifthLevelDisplayNum;
-        }
-        if (sceneNum == 9)
-        {
-        levelText.text = "Level " + sixthLevelDisplayNum;
-        }
-        if (sceneNum == 10)
-        {
-        levelText.text = "Level " + seventhLevelDisplayNum;
+        sceneText.text = "Level " + thirdLevelDisplayNum;
         }
 
     }
 
     public void DisplayPlayerHealth()
     {
-        float playerHealth = HealthSystem.healthAmount;
+        int playerHealth = Plane.GetComponent<PlayerHealthSystem>().playerHealth;
         // Debug.Log(playerHealth + "abc");
         // Debug.Log("before");
-        healthText.text = "Health: " + playerHealth;
+        playerText.text = "HP: " + playerHealth;
         // Debug.Log("after");
     }
-    /*public void nextScene(){
+    public void nextScene(){
         SceneManager.LoadScene(Respawn);
-    }*/
+    }
     //public void playAudio(){
     //        missionComplete = GetComponent<AudioSource>();
     //        AudioSource.PlayClipAtPoint(missionComplete.clip, transform.position);
