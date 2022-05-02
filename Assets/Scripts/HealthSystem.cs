@@ -10,8 +10,9 @@ public class HealthSystem : MonoBehaviour
     float dirX, dirY;
     float moveSpeed = 5f;
     public static float healthAmount;
-    public GameObject Player;
+    //public GameObject Player;
 
+    /*
     [SerializeField] int score = 0;
     [SerializeField] int staticScore = 0;
     [SerializeField] int totalAmountOfEnemies = 1;
@@ -21,18 +22,19 @@ public class HealthSystem : MonoBehaviour
     [SerializeField] Text playerText;
 
     public int calculatedEnemies;
+    */
 
     // Start is called before the first frame update
     void Start()
     {
-        score = PlayerPrefs.GetInt("score");
-        staticScore = PlayerPrefs.GetInt("score");
+        //score = PlayerPrefs.GetInt("score");
+        //staticScore = PlayerPrefs.GetInt("score");
         healthAmount = 10;
         rb = GetComponent<Rigidbody2D> ();  
 
-        DisplayScore();
-        DisplayScene();
-        DisplayPlayerHealth();  
+        //DisplayScore();
+        //DisplayScene();
+        //DisplayPlayerHealth();  
     }
 
     // Update is called once per frame
@@ -44,11 +46,11 @@ public class HealthSystem : MonoBehaviour
         if(healthAmount <= 0){
             Destroy (gameObject);
         }
-        if(score < 0){
+        /*if(score < 0){
             score = 0;
         }
 
-        DisplayPlayerHealth();
+        DisplayPlayerHealth();*/
 
     }
 
@@ -85,7 +87,6 @@ public class HealthSystem : MonoBehaviour
 
     public void Die()
     {
-
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         //anim.SetBool("isDestroyed",true);
         //StartCoroutine(deathDelay());
@@ -102,7 +103,12 @@ public class HealthSystem : MonoBehaviour
         
     }
 
-    public void IncrementScore(int amountKilled)
+    /*public void IncrementScore()
+    {
+        Increment(1);
+    }
+
+    public void Increment(int amountKilled)
     {
         //int level = SceneManager.GetActiveScene().buildIndex;
         int lastScoreUncalculated = staticScore;
@@ -110,25 +116,20 @@ public class HealthSystem : MonoBehaviour
         
         if (amountKilled < 0)
         
-
             Debug.Log("Invalid; amount may not be less than zero.");
         else
             //calculatedEnemies = score + totalAmountOfEnemies;
             score += amountKilled;   
             
-            PlayerPrefs.SetInt("score", score);
-            DisplayScore(); 
+                PlayerPrefs.SetInt("score", score);
+                DisplayScore();
             
-        /*if (score == calculatedEnemies)
-        {
-            Invoke("nextScene", 2f);
-        } */
+            
+        //if (score == calculatedEnemies)
+        //{
+        //    Invoke("nextScene", 2f);
+        //} 
         
-    }
-
-    public void IncrementScore()
-    {
-        IncrementScore(1);
     }
 
     public void DisplayScore()
@@ -164,10 +165,10 @@ public class HealthSystem : MonoBehaviour
         {
         levelText.text = "Level " + thirdLevelDisplayNum;
         }
-        /*if (sceneNum == 4) 4th is event option
-        {
+        //if (sceneNum == 4) 4th is event option
+        //{
         
-        }*/
+        //}
         if (sceneNum == 5 || sceneNum == 7)
         {
         levelText.text = "Level " + fourthLevelDisplayNum;
@@ -195,5 +196,11 @@ public class HealthSystem : MonoBehaviour
         playerText.text = "Health: " + playerHealth;
         // Debug.Log("after");
     }
+
+    /*public void reset()
+    {
+        score = 0;
+        PlayerPrefs.SetInt("score", score);
+    }*/
 
 }
