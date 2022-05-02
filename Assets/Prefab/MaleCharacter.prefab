@@ -147,6 +147,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 285365d99f45347cb8c0fb8d5a63a923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  score: 0
+  staticScore: 0
+  totalAmountOfEnemies: 1
+  scoreText: {fileID: 0}
+  sceneText: {fileID: 0}
+  playerText: {fileID: 0}
+  calculatedEnemies: 0
 --- !u!61 &7987686155066582906
 BoxCollider2D:
   m_ObjectHideFlags: 0

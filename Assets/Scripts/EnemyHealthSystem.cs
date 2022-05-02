@@ -13,6 +13,7 @@ public class EnemyHealthSystem : MonoBehaviour
     float moveSpeed = 5f;
     public static float healthAmount;
     public GameObject NextSceneButton;
+    public GameObject Player;
     //bool isDead = false;
     //public int Respawn;
     //public int health;
@@ -26,6 +27,8 @@ public class EnemyHealthSystem : MonoBehaviour
         rb = GetComponent<Rigidbody2D> ();  
         //NextSceneButton.SetActive(false);
         //healthAmount = 20; 
+        if (Player == null)
+            Player = GameObject.FindGameObjectWithTag("MaleCharacter");
         
     }
 
@@ -66,6 +69,7 @@ public class EnemyHealthSystem : MonoBehaviour
             //enemyDeathAudio(isSpecialBullet);
 
             Die();
+            Player.GetComponent<HealthSystem>().IncrementScore();
             //Plane.GetComponent<Score>().IncrementScore();
         }
     }

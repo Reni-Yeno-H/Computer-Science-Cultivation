@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LavaMountain.unity
     guid: ad25e97f8d470144d94b66beb8ba1cd0
+  - enabled: 1
+    path: Assets/Scenes/PortalOfTranscendence.unity
+    guid: bba35d410b976490dbe868bb051a3ff4
   m_configObjects: {}
