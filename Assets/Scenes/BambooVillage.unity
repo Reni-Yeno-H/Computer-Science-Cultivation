@@ -429,11 +429,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6682765941339994764, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -330.88
+      value: -348.79996
       objectReference: {fileID: 0}
     - target: {fileID: 6682765941339994764, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 128.59
+      value: 168.13
       objectReference: {fileID: 0}
     - target: {fileID: 6682765941616478173, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -441,11 +441,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6682765941947433276, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2.0269
+      value: -2.8465
       objectReference: {fileID: 0}
     - target: {fileID: 6682765941947433276, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 148.5
+      value: 186.44
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942091398426, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Color.a
@@ -461,11 +461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942281266632, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 248.8
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942281266632, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 154.68
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942281266633, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Text
@@ -575,6 +575,14 @@ PrefabInstance:
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765942407946434, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 241.33583
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942407946434, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 168.84998
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942419651778, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -585,11 +593,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942565539433, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -330.88
+      value: -348.8
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942565539433, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 152.46
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942620023583, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
@@ -601,15 +609,15 @@ PrefabInstance:
       objectReference: {fileID: 684394394}
     - target: {fileID: 6682765942808817787, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -330.88
+      value: -348.79996
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942808817787, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 105.96
+      value: 145.5
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942824591904, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942824591905, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.x

@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //reset();
+        reset();
         //score = lastScoreUncalculated;
         score = PlayerPrefs.GetInt("score");
         staticScore = PlayerPrefs.GetInt("score");
@@ -42,7 +42,7 @@ public class Score : MonoBehaviour
 
     public void IncrementScore(int amountKilled)
     {
-        //int level = SceneManager.GetActiveScene().buildIndex;
+        int level = SceneManager.GetActiveScene().buildIndex;
         int lastScoreUncalculated = staticScore;
         calculatedEnemies = lastScoreUncalculated + totalAmountOfEnemies;
         
@@ -63,10 +63,10 @@ public class Score : MonoBehaviour
             AudioSource.PlayClipAtPoint(missionComplete.clip, transform.position);
             Invoke("nextScene", 2f);
         } */
-        // if(level == 0 || level >= 5)
-        // {
-        //     reset();
-        // }
+        if(level == 0 || level >= 11)
+        {
+            reset();
+        }
     }
 
     public void IncrementScore()
