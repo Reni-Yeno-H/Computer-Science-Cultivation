@@ -432,9 +432,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6682765941616478173, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 255
+    - target: {fileID: 6682765941616478167, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Constraints
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6682765942091398426, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Color.a
