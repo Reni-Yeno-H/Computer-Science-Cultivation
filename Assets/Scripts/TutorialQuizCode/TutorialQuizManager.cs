@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TutorialQuizManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class TutorialQuizManager : MonoBehaviour
     public List<QuestionAndAnswer> QnA;
     public GameObject[] options;
     public int currentQuestion;
+    public GameObject NextSceneButton;
 
     public Text QuestionTxt;
 
@@ -66,6 +68,7 @@ public class TutorialQuizManager : MonoBehaviour
             //Debug.Log("Delete Questions");
             Debug.Log("Out of Questions");
             Destroy(QuestionPanel);
+            NextSceneButton.gameObject.SetActive(true);
         }
 
 
