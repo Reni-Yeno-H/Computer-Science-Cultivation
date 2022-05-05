@@ -143,6 +143,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: NextSceneButton
       value: 
       objectReference: {fileID: 0}
@@ -161,6 +165,206 @@ PrefabInstance:
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[3]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Question
+      value: What is linear time known as in Big O Notation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Question
+      value: What time in terms of Big O Notation does Quick sort take
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: What time in terms of Big O Notation does Insertion sort take
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Question
+      value: What time in terms of Big O Notation does Merge sort take
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Question
+      value: What time in terms of Big O Notation does Bubble sort take
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Question
+      value: What time in terms of Big O Notation does Binary Search take
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Question
+      value: Which Data Structure follows a FIFO(First in First out Format)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Question
+      value: Which Data Structure follows a LIFO (Last in First out Format)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[0]
+      value: O(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[1]
+      value: O(n)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[2]
+      value: O(10000)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[3]
+      value: O(10000000)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[0]
+      value: O(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[1]
+      value: O(nlogn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[2]
+      value: O(n^10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[3]
+      value: O(n^19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: O(n^2logn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: O(n^3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: O(n^2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: O(100000000n^4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[0]
+      value: O(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[1]
+      value: O(n*logn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[2]
+      value: O(n^4log(n))
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[3]
+      value: O(1000000n^3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[0]
+      value: O(n^2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[1]
+      value: O(n^50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[2]
+      value: O(100n^3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[3]
+      value: O(nlogn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[0]
+      value: O(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[1]
+      value: O(n)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[2]
+      value: O(100000)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[3]
+      value: O(logn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[0]
+      value: ArrayList
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[1]
+      value: Queue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[2]
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[3]
+      value: Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[0]
+      value: Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[1]
+      value: LinkedList
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[2]
+      value: Stack
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[3]
+      value: Queue
       objectReference: {fileID: 0}
     - target: {fileID: 7566733019864603303, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: m_RootOrder

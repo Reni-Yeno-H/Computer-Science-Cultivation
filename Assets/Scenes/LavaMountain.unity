@@ -973,6 +973,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: NextSceneButton
       value: 
       objectReference: {fileID: 0}
@@ -991,6 +995,175 @@ PrefabInstance:
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[3]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Question
+      value: How do you properly write a ArrayList in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Question
+      value: How do you properly write a LinkedList in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: How do you properly write a Stack in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Question
+      value: How do you properly write a Queue in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Question
+      value: How do you properly write a Map in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Question
+      value: How do you properly write a Set in Java
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Question
+      value: What is known as the fastest time for an Algorithm in terms of Big O
+        Notation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[0]
+      value: ArrayList<String> wordList = new ArrayList <String>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[1]
+      value: ArrayList<Integer> numList = new ArrayList<Integer>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[2]
+      value: ArrayList<Type> nameofAList = new ArrayList<Type>(sizeofList);
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[3]
+      value: ArrayList <Double> priceList = new ArrayList<Double>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[0]
+      value: LinkedList<Type> LinkedList = new LinkedList<Type>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[1]
+      value: LinkedList<String> s = new LinkedList<String>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[2]
+      value: LinkedList<Double> d = new LinkedList<Double>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[3]
+      value: LinkedList<Integer> i = new LinkedList<Integer>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: Stack<Game> stack = new Stack<Game>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: Stack<String> stack = new Stack<String>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: Stack<E> stack = new Stack<E>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: Stack<Type> stack = new Stack<Type>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[0]
+      value: Queue<String> q = new LinkedList<>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[1]
+      value: Queue<Type> q = new LinkedList<>(); and Queue<Type> q = new PriorityQueue<>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[2]
+      value: Queue<Double> q = new Priority<>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[3]
+      value: Queue<Fruits> q = new LinkedList<>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[0]
+      value: 'Map mp<Integer> = new HashMap(); '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[1]
+      value: 'Map mp = new HashMap(); '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[2]
+      value: 'Map() mp = new HashMap(); '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[3]
+      value: 'Map<> mp = new HashMap(); '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[0]
+      value: Set<Integer> set = new HashSet<Double> ();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[1]
+      value: Set<String> set = new HashSet<String> ();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[2]
+      value: Set<Type> set = new HashSet<Type>();
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[3]
+      value: 'Set<Double> set = new HashSet<Double> (); '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[0]
+      value: O(n)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[1]
+      value: O(nlogn)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[2]
+      value: O(n^2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[3]
+      value: O(1)
       objectReference: {fileID: 0}
     - target: {fileID: 7566733019864603303, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: m_RootOrder
