@@ -33,16 +33,21 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int level = SceneManager.GetActiveScene().buildIndex;
         if(score < 0){
             score = 0;
         }
 
         DisplayPlayerHealth();
+        if(level == 0 || level >= 11)
+        {
+            reset();
+        }
     }
 
     public void IncrementScore(int amountKilled)
     {
-        int level = SceneManager.GetActiveScene().buildIndex;
+        //int level = SceneManager.GetActiveScene().buildIndex;
         int lastScoreUncalculated = staticScore;
         calculatedEnemies = lastScoreUncalculated + totalAmountOfEnemies;
         
@@ -63,10 +68,10 @@ public class Score : MonoBehaviour
             AudioSource.PlayClipAtPoint(missionComplete.clip, transform.position);
             Invoke("nextScene", 2f);
         } */
-        if(level == 0 || level >= 11)
+        /*if(level == 0 || level >= 11)
         {
             reset();
-        }
+        }*/
     }
 
     public void IncrementScore()
