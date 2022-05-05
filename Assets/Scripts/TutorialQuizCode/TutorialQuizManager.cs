@@ -46,6 +46,9 @@ public class TutorialQuizManager : MonoBehaviour
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
+            //if(QnA[currentQuestion].Answers[2] == null || QnA[currentQuestion].Answers[3] == null){
+            //    options[i].GetComponent<AnswerScript>().isCorrect = true;
+            //}
         }
     }
 
