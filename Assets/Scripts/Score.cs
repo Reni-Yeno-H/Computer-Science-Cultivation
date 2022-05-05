@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        reset();
+        //reset();
         //score = lastScoreUncalculated;
         score = PlayerPrefs.GetInt("score");
         staticScore = PlayerPrefs.GetInt("score");
