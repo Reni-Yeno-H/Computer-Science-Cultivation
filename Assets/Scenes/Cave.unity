@@ -561,7 +561,7 @@ RectTransform:
   m_LocalScale: {x: 0.63203, y: 0.63203, z: 0.63203}
   m_Children: []
   m_Father: {fileID: 824752298}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1070905696}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -1297,31 +1297,31 @@ PrefabInstance:
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QuestionTxt
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1347314213}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QuestionPanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21461524}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: NextSceneButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1248489994}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2003350160}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 859999212}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1404753293}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 586268069}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QnA.Array.data[0].Question
       value: 'What are the three types of repetition statements in java? '
@@ -2268,8 +2268,8 @@ RectTransform:
   - {fileID: 612496378}
   - {fileID: 1772355363}
   - {fileID: 720765071}
-  - {fileID: 934306138}
   - {fileID: 186677917}
+  - {fileID: 934306138}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2468,7 +2468,7 @@ RectTransform:
   m_LocalScale: {x: 0.63203, y: 0.63203, z: 0.63203}
   m_Children: []
   m_Father: {fileID: 824752298}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2524,6 +2524,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 824752298}
     m_Modifications:
+    - target: {fileID: 6819506647895525580, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: levelText
+      value: 
+      objectReference: {fileID: 1772355364}
+    - target: {fileID: 6819506647895525580, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 720765072}
+    - target: {fileID: 6819506647895525580, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 186677918}
     - target: {fileID: 7987686155066582898, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: m_Name
       value: MaleCharacter
@@ -2617,6 +2629,11 @@ PrefabInstance:
 --- !u!224 &1070905695 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7987686155066582909, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+  m_PrefabInstance: {fileID: 1070905694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1070905696 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7987686155066582910, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
   m_PrefabInstance: {fileID: 1070905694}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077730758
@@ -2835,7 +2852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.99469, y: 14.503143}
+  m_AnchoredPosition: {x: -30, y: -67}
   m_SizeDelta: {x: 122.0664, y: 67.7749}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1168781108
@@ -3037,6 +3054,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190065971}
   m_CullTransparentMesh: 1
+--- !u!1 &1248489994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3999067192986697081, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
+  m_PrefabInstance: {fileID: 1260286258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1260286258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3853,7 +3875,7 @@ GameObject:
   - component: {fileID: 1637167141}
   - component: {fileID: 1637167140}
   m_Layer: 0
-  m_Name: RhinoBear static_0
+  m_Name: RhinoBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3953,7 +3975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.72461, y: -88.483505}
+  m_AnchoredPosition: {x: -280.9, y: -13.185}
   m_SizeDelta: {x: 175.1823, y: 26.3702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663132190

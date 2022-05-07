@@ -9,7 +9,7 @@ public class HealthSystem : MonoBehaviour
     Rigidbody2D rb;
     float dirX, dirY;
     float moveSpeed = 5f;
-    public static float healthAmount;
+    public static float healthAmount = 10;
     //public GameObject Player;
 
     /*
@@ -29,7 +29,7 @@ public class HealthSystem : MonoBehaviour
     {
         //score = PlayerPrefs.GetInt("score");
         //staticScore = PlayerPrefs.GetInt("score");
-        healthAmount = 10;
+        //healthAmount = 10;
         rb = GetComponent<Rigidbody2D> ();  
 
         //DisplayScore();
@@ -44,7 +44,7 @@ public class HealthSystem : MonoBehaviour
         dirY = Input.GetAxis("Vertical") * moveSpeed;
 
         if(healthAmount <= 0){
-            Destroy (gameObject);
+            Die();
         }
         /*if(score < 0){
             score = 0;
@@ -58,12 +58,12 @@ public class HealthSystem : MonoBehaviour
     {
         healthAmount -= damage;
         //healthBar.setHealth(currentHealth);
-        if (healthAmount >= 0)
-        {
+        if (healthAmount <= 0)
+        //{
             //enemyHitAudio(isSpecialBullet);
 
-        }
-        else
+        //}
+        //else
         {
 
             //enemyDeathAudio(isSpecialBullet);
@@ -97,9 +97,10 @@ public class HealthSystem : MonoBehaviour
     }
 
     public void restartLevel(){
-        int level = SceneManager.GetActiveScene().buildIndex;
+        int level = 1;
         SceneManager.LoadScene(level);
         //SceneManager.LoadScene(Respawn);
+        healthAmount = 10;
         
     }
 
