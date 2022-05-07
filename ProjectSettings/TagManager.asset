@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Canvas
+  - GameMusic
   layers:
   - Default
   - TransparentFX
