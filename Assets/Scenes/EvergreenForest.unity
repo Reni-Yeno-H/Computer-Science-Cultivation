@@ -3474,7 +3474,7 @@ GameObject:
   - component: {fileID: 1496035821}
   - component: {fileID: 1496035820}
   m_Layer: 0
-  m_Name: Bear-1.png
+  m_Name: Bear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
