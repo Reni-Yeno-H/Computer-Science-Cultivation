@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PortalOfTranscendence.unity
     guid: bba35d410b976490dbe868bb051a3ff4
+  - enabled: 1
+    path: Assets/Scenes/ScoreScene.unity
+    guid: 1370c002e57314b5b8360b2457def9f6
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: f51305b9e36ab41cab534f9487329812
   m_configObjects: {}

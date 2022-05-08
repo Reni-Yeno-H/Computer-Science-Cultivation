@@ -414,6 +414,7 @@ GameObject:
   - component: {fileID: 835371926}
   - component: {fileID: 835371927}
   - component: {fileID: 835371925}
+  - component: {fileID: 835371928}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -433,9 +434,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6b2210efead4647fd8b56bd78b9a773d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -539,6 +540,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835371924}
   m_Enabled: 1
+--- !u!114 &835371928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835371924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7255544624a9e4945b162be255a29122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &937182938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6682765942824591904, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
@@ -812,6 +825,7 @@ GameObject:
   - component: {fileID: 1883697458}
   - component: {fileID: 1883697460}
   - component: {fileID: 1883697459}
+  - component: {fileID: 1883697461}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -848,7 +862,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883697457}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac8e1fd96f892411cae747b7e87f9457, type: 3}
   m_Name: 
@@ -917,6 +931,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1883697461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883697457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319a6be68a00b4785abb65e23dcb0ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 1883697460}
+  ObjectMusic: {fileID: 835371924}
 --- !u!1 &1887909900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6682765942419651788, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}

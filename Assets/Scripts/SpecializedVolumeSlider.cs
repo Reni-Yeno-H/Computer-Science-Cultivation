@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class VolumeSetting : MonoBehaviour
+public class SpecializedVolumeSlider : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
-    //public GameObject ObjectMusic;
+    public GameObject ObjectMusic;
 
     //private float MusicVolume = 0f;
-    //private AudioSource AudioSource;
+    private AudioSource AudioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,8 @@ public class VolumeSetting : MonoBehaviour
         volumeSlider.value = MusicVolume;
         */
 
+        ObjectMusic = GameObject.FindGameObjectWithTag("GameMusic");
+        //AudioSource = ObjectMusic.GetComponent<AudioSource>();
 
         if (!PlayerPrefs.HasKey("volume"))
         {
