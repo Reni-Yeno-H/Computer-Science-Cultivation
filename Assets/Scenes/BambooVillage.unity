@@ -267,8 +267,8 @@ RectTransform:
   m_Father: {fileID: 1149012569}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -595,7 +595,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -852,8 +852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -147, y: 99}
-  m_SizeDelta: {x: 127.359, y: 42.8}
+  m_AnchoredPosition: {x: -146.5, y: 100.6}
+  m_SizeDelta: {x: 127.359, y: 20.1028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883697459
 MonoBehaviour:
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1050,6 +1050,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.78431374
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765942270184243, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942281266633, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Text
       value: 'Monster Health:'
@@ -1162,6 +1166,10 @@ PrefabInstance:
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765942387452306, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942419651778, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1186,14 +1194,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 192
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765942620023577, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942620023583, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765942669532108, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942764493153, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765942764493155, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942804312163, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942808817787, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_SizeDelta.x
       value: 100
@@ -1234,6 +1258,10 @@ PrefabInstance:
       propertyPath: totalAmountOfEnemies
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765943006399579, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765943266362746, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_SizeDelta.x
       value: 457.8707
@@ -1254,10 +1282,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765943357743509, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765943399041812, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
       value: 
       objectReference: {fileID: 684394394}
+    - target: {fileID: 6682765943399041814, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 7838448223278514531, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: levelText
       value: 

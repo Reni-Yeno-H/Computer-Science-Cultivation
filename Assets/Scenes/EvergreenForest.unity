@@ -548,6 +548,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141037898}
     m_Modifications:
+    - target: {fileID: 2708121146184160249, guid: 64de5c75948964a279aa617e47696908, type: 3}
+      propertyPath: m_Value
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160252, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_Name
       value: VolumeSlider
@@ -586,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160255, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 42.8
+      value: 20.4396
       objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160255, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_LocalPosition.x
@@ -618,11 +622,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160255, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -147
+      value: -146
       objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160255, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 99
+      value: 101.5
       objectReference: {fileID: 0}
     - target: {fileID: 2708121146184160255, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -637,12 +641,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2708121147036028312, guid: 64de5c75948964a279aa617e47696908, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708121147036028312, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2708121147468046955, guid: 64de5c75948964a279aa617e47696908, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708121147468046955, guid: 64de5c75948964a279aa617e47696908, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708121147468046955, guid: 64de5c75948964a279aa617e47696908, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64de5c75948964a279aa617e47696908, type: 3}
@@ -990,7 +1006,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -181.22379, y: -61.231277}
+  m_AnchoredPosition: {x: -272.99557, y: -61.231277}
   m_SizeDelta: {x: 235.9084, y: 85.5506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &528718382
@@ -1315,7 +1331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.28235295}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1410,9 +1426,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'What is the brain of the computer?
-
-'
+  m_Text: ' '
 --- !u!222 &641683317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1521,7 +1535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277.29596, y: 136.38}
+  m_AnchoredPosition: {x: -300, y: 168.10753}
   m_SizeDelta: {x: 100.23, y: 29.112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721793489
@@ -1924,7 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.28235295}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2019,7 +2033,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIC
+  m_Text: ' '
 --- !u!222 &773124579
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2103,7 +2117,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Motherboard
+  m_Text: ' '
 --- !u!222 &882363884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2182,7 +2196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Memory
+  m_Text: ' '
 --- !u!222 &959373108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2465,7 +2479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7, y: -102}
+  m_AnchoredPosition: {x: 28, y: -141}
   m_SizeDelta: {x: 394.90125, y: -53.459778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116415905
@@ -2786,7 +2800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.55925, y: -111.3}
+  m_AnchoredPosition: {x: -263, y: -111.3}
   m_SizeDelta: {x: 175.1823, y: 26.3702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1229490654
@@ -3792,7 +3806,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.19183731, y: 0.5754547}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3803,7 +3817,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 146.40018, y: 79.646545}
   m_EdgeRadius: 0
 --- !u!114 &1496035824
 MonoBehaviour:
@@ -3886,7 +3900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277.3, y: 158.21}
+  m_AnchoredPosition: {x: -300.00403, y: 189.93753}
   m_SizeDelta: {x: 100.2303, y: 27.438}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521172357
@@ -3982,7 +3996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.53333336}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4118,7 +4132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -181.22821, y: -61.23329}
+  m_AnchoredPosition: {x: -273, y: -61.23329}
   m_SizeDelta: {x: 235.91, y: 85.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1570740892
@@ -4942,7 +4956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.28235295}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5242,7 +5256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.28235295}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5337,7 +5351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CPU
+  m_Text: ' '
 --- !u!222 &1977036617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5380,7 +5394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277.29596, y: 115.672485}
+  m_AnchoredPosition: {x: -300, y: 147.4}
   m_SizeDelta: {x: 100.23, y: 22.9756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987735181
