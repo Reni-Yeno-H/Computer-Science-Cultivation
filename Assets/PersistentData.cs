@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializeField] int playerScore;
-[SerializeField] string playerName;
-
 public class PersistentData : MonoBehaviour
 {
 
-private void Awake(){
-    if(Instance == null)
-    {
-        DontDestroyOnLoad(this);
-        Instance = this;
-    }else{
-        Destroy(gameObject);
-    }
-}
+    [SerializeField] int playerScore;
+    [SerializeField] string playerName;
 
+    public static PersistentData Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(this);
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +40,6 @@ private void Awake(){
     public void SetName(string s)
     {
         playerName = s;
-
     }
 
     public void SetScore(int s)
@@ -53,4 +56,9 @@ private void Awake(){
     {
         return playerScore;
     }
+
+
+
+
+
 }
