@@ -18,10 +18,16 @@ public class EnemyHealthSystem : MonoBehaviour
     //public int Respawn;
     //public int health;
 
+    [SerializeField] GameObject controller;
+
     // Start is called before the first frame update
     
     void Start()
     {
+        if (controller == null)
+        {
+            controller = GameObject.FindGameObjectWithTag("GameController");
+        }
         //health=100;
         healthAmount = 5;
         rb = GetComponent<Rigidbody2D> ();  
@@ -104,6 +110,7 @@ public class EnemyHealthSystem : MonoBehaviour
         if(healthAmount <= 0){
             Die();
             Player.GetComponent<Score>().IncrementScore();
+            //Update score for persistent data
         }
     }
 
