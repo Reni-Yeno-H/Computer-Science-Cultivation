@@ -1241,6 +1241,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: ' '
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1771295449}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765942716339311, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765942764493153, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: tutorialQuizManager
       value: 
