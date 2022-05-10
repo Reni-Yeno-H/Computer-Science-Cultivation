@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -2034640586983468411
     second: Yeti_0
+  - first:
+      213: 4543551545257462369
+    second: Yeti_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,12 +148,12 @@ TextureImporter:
       name: Yeti_0
       rect:
         serializedVersion: 2
-        x: 51
+        x: 10
         y: 15
-        width: 171
+        width: 212
         height: 239
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74369171da8344c60bf1c147e5145983
+guid: add4b3d5c067649668039036b07a3fe3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7899703871480461105
-    second: RhinoBear3_3
+      213: -2860384690334252286
+    second: Yeti_atk3_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,22 +142,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RhinoBear3_3
+      name: Yeti_atk3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 148
-        height: 126
+        x: 10
+        y: 15
+        width: 210
+        height: 239
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc801adee2d9e5290800000000000000
-      internalID: -7899703871480461105
+      spriteID: 20349a3774fdd48d0800000000000000
+      internalID: -2860384690334252286
       vertices: []
       indices: 
       edges: []

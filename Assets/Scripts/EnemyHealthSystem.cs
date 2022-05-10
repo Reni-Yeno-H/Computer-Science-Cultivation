@@ -16,6 +16,7 @@ public class EnemyHealthSystem : MonoBehaviour
     public GameObject Player;
     public GameObject DesertWorm;
     public GameObject ScaryTree;
+    public GameObject Yeti;
     //bool isDead = false;
     //public int Respawn;
     //public int health;
@@ -39,6 +40,10 @@ public class EnemyHealthSystem : MonoBehaviour
         }
 
         if(ScaryTree != null){
+            healthAmount = 3;
+        }
+
+        if(Yeti != null){
             healthAmount = 3;
         }
         
