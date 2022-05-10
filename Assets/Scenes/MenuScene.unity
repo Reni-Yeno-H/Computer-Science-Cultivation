@@ -2136,9 +2136,8 @@ MonoBehaviour:
   staticScore: 0
   totalAmountOfEnemies: 1
   levelText: {fileID: 4226811666416649035, guid: d737ab73628bd41219f5cb4019814d52, type: 3}
-  scoreText: {fileID: 2692701701559171674, guid: 11b70e590358a4472a2634b060c067ee, type: 3}
+  scoreText: {fileID: 1783503890}
   healthText: {fileID: 7499079599023388780, guid: f6369b62768c14abb813b247bb152455, type: 3}
-  Player: {fileID: 1216741329065606993, guid: a026ad5884a3e45d498e25a763706d20, type: 3}
   calculatedEnemies: 0
 --- !u!4 &945705277
 Transform:

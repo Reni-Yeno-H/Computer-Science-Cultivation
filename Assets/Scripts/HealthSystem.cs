@@ -70,9 +70,9 @@ public class HealthSystem : MonoBehaviour
 
             Die();
             //int playerScore = Score.score;
-            //Player.GetComponent<Score>().DeadScore();
+            Player.GetComponent<Score>().DeadScore();
             //playerScore = 0;
-            //Plane.GetComponent<Score>().IncrementScore();
+            
         }
     }
 
