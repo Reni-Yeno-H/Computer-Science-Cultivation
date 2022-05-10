@@ -3713,8 +3713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.729, y: -82.251}
-  m_SizeDelta: {x: 216.29, y: 116.34}
+  m_AnchoredPosition: {x: 4.003311, y: -64.432816}
+  m_SizeDelta: {x: 368.8173, y: 133.6185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6682765943069888837
 CanvasRenderer:
@@ -3765,7 +3765,11 @@ MonoBehaviour:
 
 
     - You can survive 10
-    hits before restarting the same map.'
+    hits before restarting the same map.
+
+
+    - If you get one question wrong, no
+    score is obtained.'
 --- !u!1 &6682765943131213683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,8 +3966,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.509095, y: 0}
-  m_SizeDelta: {x: 482.5818, y: 400}
+  m_AnchoredPosition: {x: -2.8465, y: 0.0034962}
+  m_SizeDelta: {x: 457.8707, y: 327.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6682765943266362744
 CanvasRenderer:
