@@ -5,24 +5,31 @@ body {
 ul {
   color: white;
 }
-.h2 {
-  color:white;
+h2 {
+  text-align: center;
+}
+
+h4 {
   text-align: center;
 }
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
-  color: white;
   justify-content: space-evenly;
 }
 
-.flex-container > div {
+li {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 300px;
+  padding: 10px;
   margin: 10px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  font-size: 15px;
+  border: 1px solid #000;
+  border-radius: 50px
 }
 
+a {
+  /* color: #fff; */
+  text-decoration: none;
+}
