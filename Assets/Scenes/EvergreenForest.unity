@@ -267,7 +267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.2630005, y: 148.21979}
+  m_AnchoredPosition: {x: -15.9, y: 161.22}
   m_SizeDelta: {x: 117.6464, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &76186172
@@ -1233,7 +1233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.31, y: -59.52333}
+  m_AnchoredPosition: {x: -151.31, y: -81.66434}
   m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596264671
@@ -1254,6 +1254,7 @@ MonoBehaviour:
   Enemy: {fileID: 1496035818}
   correct: {fileID: 1570740890}
   wrong: {fileID: 528718380}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1294966544}
   EnemyAnimator: {fileID: 0}
   CorrectLetteringAnimator: {fileID: 1570740892}
@@ -1840,7 +1841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.31, y: -4.859}
+  m_AnchoredPosition: {x: -151.31, y: -27}
   m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768907379
@@ -1861,6 +1862,7 @@ MonoBehaviour:
   Enemy: {fileID: 1496035818}
   correct: {fileID: 1570740890}
   wrong: {fileID: 528718380}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1294966544}
   EnemyAnimator: {fileID: 0}
   CorrectLetteringAnimator: {fileID: 1570740892}
@@ -3415,7 +3417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.9, y: 85.8}
+  m_AnchoredPosition: {x: -15.9, y: 118.22}
   m_SizeDelta: {x: 67.1097, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421131411
@@ -3849,6 +3851,9 @@ MonoBehaviour:
   Player: {fileID: 1294966545}
   DesertWorm: {fileID: 0}
   ScaryTree: {fileID: 0}
+  Yeti: {fileID: 0}
+  Dragon: {fileID: 0}
+  Boss: {fileID: 0}
   controller: {fileID: 0}
 --- !u!95 &1496035826
 Animator:
@@ -4861,7 +4866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.17, y: -59.523}
+  m_AnchoredPosition: {x: 107.17, y: -81.66401}
   m_SizeDelta: {x: 214.35, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891019852
@@ -4882,6 +4887,7 @@ MonoBehaviour:
   Enemy: {fileID: 1496035818}
   correct: {fileID: 1570740890}
   wrong: {fileID: 528718380}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1294966544}
   EnemyAnimator: {fileID: 0}
   CorrectLetteringAnimator: {fileID: 1570740892}
@@ -5161,7 +5167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.18, y: -4.859}
+  m_AnchoredPosition: {x: 107.18, y: -27.000011}
   m_SizeDelta: {x: 214.3522, y: 44.235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1968240256
@@ -5182,6 +5188,7 @@ MonoBehaviour:
   Enemy: {fileID: 1496035818}
   correct: {fileID: 1570740890}
   wrong: {fileID: 528718380}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1294966544}
   EnemyAnimator: {fileID: 0}
   CorrectLetteringAnimator: {fileID: 1570740892}
@@ -5543,7 +5550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 84.378975
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -181,6 +181,7 @@ MonoBehaviour:
   Enemy: {fileID: 1621455265}
   correct: {fileID: 937855953}
   wrong: {fileID: 1143336827}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 810356480}
   EnemyAnimator: {fileID: 1621455273}
   CorrectLetteringAnimator: {fileID: 937855955}
@@ -1826,6 +1827,7 @@ MonoBehaviour:
   Enemy: {fileID: 1621455265}
   correct: {fileID: 937855953}
   wrong: {fileID: 1143336827}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 810356480}
   EnemyAnimator: {fileID: 1621455273}
   CorrectLetteringAnimator: {fileID: 937855955}
@@ -2903,6 +2905,7 @@ MonoBehaviour:
   Enemy: {fileID: 1621455265}
   correct: {fileID: 937855953}
   wrong: {fileID: 1143336827}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 810356480}
   EnemyAnimator: {fileID: 1621455273}
   CorrectLetteringAnimator: {fileID: 937855955}
@@ -4038,6 +4041,7 @@ MonoBehaviour:
   Enemy: {fileID: 1621455265}
   correct: {fileID: 937855953}
   wrong: {fileID: 1143336827}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 810356480}
   EnemyAnimator: {fileID: 1621455273}
   CorrectLetteringAnimator: {fileID: 937855955}
@@ -4583,6 +4587,8 @@ MonoBehaviour:
   DesertWorm: {fileID: 0}
   ScaryTree: {fileID: 0}
   Yeti: {fileID: 1621455265}
+  Dragon: {fileID: 0}
+  Boss: {fileID: 0}
   controller: {fileID: 0}
 --- !u!61 &1621455271
 BoxCollider2D:
@@ -5330,8 +5336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -163, y: -168}
-  m_SizeDelta: {x: 470.596, y: 74.381}
+  m_AnchoredPosition: {x: -136.257, y: -57.812}
+  m_SizeDelta: {x: 417.11, y: 54.005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1912548031
 MonoBehaviour:

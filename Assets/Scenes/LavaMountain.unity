@@ -586,7 +586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.08, y: 56.846}
+  m_AnchoredPosition: {x: -217, y: 108.99802}
   m_SizeDelta: {x: 235.91, y: 85.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &235753720
@@ -1500,6 +1500,7 @@ MonoBehaviour:
   Enemy: {fileID: 509123615}
   correct: {fileID: 235753718}
   wrong: {fileID: 1163301536}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 115560446}
   EnemyAnimator: {fileID: 509123624}
   CorrectLetteringAnimator: {fileID: 235753720}
@@ -1835,6 +1836,7 @@ MonoBehaviour:
   ScaryTree: {fileID: 0}
   Yeti: {fileID: 0}
   Dragon: {fileID: 509123615}
+  Boss: {fileID: 0}
   controller: {fileID: 0}
 --- !u!61 &509123622
 BoxCollider2D:
@@ -2020,8 +2022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -228, y: 71}
-  m_SizeDelta: {x: 481.053, y: 10.922}
+  m_AnchoredPosition: {x: -198.631, y: 6}
+  m_SizeDelta: {x: 422.316, y: 23.975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547425263
 MonoBehaviour:
@@ -2328,6 +2330,7 @@ MonoBehaviour:
   Enemy: {fileID: 509123615}
   correct: {fileID: 235753718}
   wrong: {fileID: 1163301536}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 115560446}
   EnemyAnimator: {fileID: 509123624}
   CorrectLetteringAnimator: {fileID: 235753720}
@@ -2800,6 +2803,7 @@ MonoBehaviour:
   Enemy: {fileID: 509123615}
   correct: {fileID: 235753718}
   wrong: {fileID: 1163301536}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 115560446}
   EnemyAnimator: {fileID: 509123624}
   CorrectLetteringAnimator: {fileID: 235753720}
@@ -3170,6 +3174,7 @@ MonoBehaviour:
   Enemy: {fileID: 509123615}
   correct: {fileID: 235753718}
   wrong: {fileID: 1163301536}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 115560446}
   EnemyAnimator: {fileID: 509123624}
   CorrectLetteringAnimator: {fileID: 235753720}
@@ -3468,7 +3473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.08, y: 56.848}
+  m_AnchoredPosition: {x: -217, y: 109}
   m_SizeDelta: {x: 235.9084, y: 85.5506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1163301538
@@ -4512,7 +4517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.8499146, y: 1.1763}
+  m_AnchoredPosition: {x: -1.8499298, y: 1.1763}
   m_SizeDelta: {x: -39.6331, y: -30.206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651061436
