@@ -1017,6 +1017,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 174
       objectReference: {fileID: 0}
+    - target: {fileID: 6682765941457263317, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212.8087
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941457263317, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 22.9146
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941457263317, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.9998932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941457263317, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.8342
+      objectReference: {fileID: 0}
     - target: {fileID: 6682765941616478167, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Constraints
       value: 6
@@ -1032,6 +1048,22 @@ PrefabInstance:
     - target: {fileID: 6682765941700998385, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 183
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941938949277, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 368.8173
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941938949277, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 126.0388
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941938949277, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765941938949277, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -60.641834
       objectReference: {fileID: 0}
     - target: {fileID: 6682765941947433276, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1264,6 +1296,38 @@ PrefabInstance:
     - target: {fileID: 6682765943006399579, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_Text
       value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765943069888836, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_Text
+      value: '- Complete the computer science questions to code an attack.
+
+
+        -
+        Getting a question wrong will allow the mosnters to attack.
+
+
+        - You
+        can survive 10 hits before restarting the same map.
+
+
+        -If you get
+        one question wrong no score is obtained.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765943069888839, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 368.8173
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765943069888839, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 133.6185
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765943069888839, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.003311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682765943069888839, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -64.432816
       objectReference: {fileID: 0}
     - target: {fileID: 6682765943266362746, guid: 469e43ee93604fe4a9741fc39dd31938, type: 3}
       propertyPath: m_SizeDelta.x
