@@ -1,15 +1,18 @@
 body {
-  background-color: #006442;
-  color: white;
+  background-color: white;
+  color: black;
 }
 ul {
-  text-align: center;
   color: white;
 }
+.h2 {
+  color:white;
+  text-align: center;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  /*background-color: #006442;*/
   color: white;
   justify-content: space-evenly;
 }
