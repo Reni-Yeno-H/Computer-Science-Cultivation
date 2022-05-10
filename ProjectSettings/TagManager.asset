@@ -11,6 +11,7 @@ TagManager:
   - ScaryTree
   - Yeti
   - Dragon
+  - Boss
   layers:
   - Default
   - TransparentFX

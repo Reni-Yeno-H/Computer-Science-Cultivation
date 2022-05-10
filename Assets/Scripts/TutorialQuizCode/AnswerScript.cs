@@ -14,6 +14,7 @@ public class AnswerScript : MonoBehaviour
     public GameObject correct;
     public GameObject wrong;
     public GameObject BossDoubleShot;
+    //public float lifetime = 5;
 
     public Animator PlayerAnimator;
     public Animator EnemyAnimator;
@@ -159,9 +160,13 @@ public class AnswerScript : MonoBehaviour
         //sword.transform.SetParent (GameObject.FindGameObjectWithTag("Canvas").transform, false);
         //DestroyImmediate(firedSpark, true);
         //WrongLetteringAnimator.SetTrigger("WrongIdle");
-        if(BossDoubleShot!= null)
+        /*if(BossDoubleShot!= null)
         {
-            GameObject enemyprojectile = Instantiate(enemyWeapon, enemyfirePoint.position, enemyfirePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
-        }
+            lifetime -= Time.deltaTime;
+            if(lifetime < 0)
+            {
+            enemyprojectile = Instantiate(enemyWeapon, enemyfirePoint.position, enemyfirePoint.rotation, GameObject.FindGameObjectWithTag("Canvas").transform);
+            }
+        }*/
     }
 }
