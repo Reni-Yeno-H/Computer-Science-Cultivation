@@ -596,6 +596,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289673318}
   m_CullTransparentMesh: 1
+--- !u!114 &441130430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
+  m_PrefabInstance: {fileID: 1889566457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fa68178a18e4e01b1323dce137d546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &534030140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -171, y: -88}
+  m_AnchoredPosition: {x: -125, y: -153}
   m_SizeDelta: {x: 394.90125, y: -53.459778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766504694
@@ -1303,7 +1314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1375,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.3843
+      value: 96.912
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1441,7 +1452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -169.99648, y: 132.00162}
+  m_AnchoredPosition: {x: -296, y: -146}
   m_SizeDelta: {x: 235.9084, y: 85.5506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &992904214
@@ -1751,7 +1762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.640442, y: 29.07315}
+  m_AnchoredPosition: {x: -12.64, y: 50.1}
   m_SizeDelta: {x: 67.1097, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1079271310
@@ -2455,8 +2466,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.17, y: -59.523}
-  m_SizeDelta: {x: 214.35, y: 44.235}
+  m_AnchoredPosition: {x: 120.55, y: -66.212}
+  m_SizeDelta: {x: 241.12, y: 57.613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374486865
 MonoBehaviour:
@@ -2471,19 +2482,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  tutorialQuizManager: {fileID: 0}
-  Player: {fileID: 0}
-  Enemy: {fileID: 0}
-  correct: {fileID: 0}
-  wrong: {fileID: 0}
-  PlayerAnimator: {fileID: 0}
-  EnemyAnimator: {fileID: 0}
-  CorrectLetteringAnimator: {fileID: 0}
-  WrongLetteringAnimator: {fileID: 0}
-  firePoint: {fileID: 0}
-  enemyfirePoint: {fileID: 0}
+  tutorialQuizManager: {fileID: 441130430}
+  Player: {fileID: 1778629573}
+  Enemy: {fileID: 1649394846}
+  correct: {fileID: 1700665806}
+  wrong: {fileID: 992904212}
+  PlayerAnimator: {fileID: 1778629574}
+  EnemyAnimator: {fileID: 1649394854}
+  CorrectLetteringAnimator: {fileID: 1700665808}
+  WrongLetteringAnimator: {fileID: 992904214}
+  firePoint: {fileID: 1401142179}
+  enemyfirePoint: {fileID: 1977981362}
   playerWeapon: {fileID: 8837376570795551560, guid: 86478dcd032034753ada76f9ead96729, type: 3}
-  enemyWeapon: {fileID: 745671592188713744, guid: 2e74765e1c3f44919b1596c835e76c8a, type: 3}
+  enemyWeapon: {fileID: 7052653984231068112, guid: cc1750720acba40be80bb6d90aaa04df, type: 3}
 --- !u!114 &1374486866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,6 +2589,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374486863}
   m_CullTransparentMesh: 1
+--- !u!224 &1401142179 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3919813619464716440, guid: 057b0afc2069a47d9b228408b9ee5ad5, type: 3}
+  m_PrefabInstance: {fileID: 1258420780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1482118473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,8 +2631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.31, y: -59.52333}
-  m_SizeDelta: {x: 214.35, y: 44.235}
+  m_AnchoredPosition: {x: -171.47, y: -66.212}
+  m_SizeDelta: {x: 254.67, y: 57.613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482118475
 MonoBehaviour:
@@ -2631,19 +2647,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  tutorialQuizManager: {fileID: 0}
-  Player: {fileID: 0}
-  Enemy: {fileID: 0}
-  correct: {fileID: 0}
-  wrong: {fileID: 0}
-  PlayerAnimator: {fileID: 0}
-  EnemyAnimator: {fileID: 0}
-  CorrectLetteringAnimator: {fileID: 0}
-  WrongLetteringAnimator: {fileID: 0}
-  firePoint: {fileID: 0}
-  enemyfirePoint: {fileID: 0}
+  tutorialQuizManager: {fileID: 441130430}
+  Player: {fileID: 1778629573}
+  Enemy: {fileID: 1649394846}
+  correct: {fileID: 1700665806}
+  wrong: {fileID: 992904212}
+  PlayerAnimator: {fileID: 1778629574}
+  EnemyAnimator: {fileID: 1649394854}
+  CorrectLetteringAnimator: {fileID: 1700665808}
+  WrongLetteringAnimator: {fileID: 992904214}
+  firePoint: {fileID: 1401142179}
+  enemyfirePoint: {fileID: 1977981362}
   playerWeapon: {fileID: 8837376570795551560, guid: 86478dcd032034753ada76f9ead96729, type: 3}
-  enemyWeapon: {fileID: 745671592188713744, guid: 2e74765e1c3f44919b1596c835e76c8a, type: 3}
+  enemyWeapon: {fileID: 7052653984231068112, guid: cc1750720acba40be80bb6d90aaa04df, type: 3}
 --- !u!114 &1482118476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2854,8 +2870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.18, y: -4.859}
-  m_SizeDelta: {x: 214.3522, y: 44.235}
+  m_AnchoredPosition: {x: 120.558, y: 6.2303}
+  m_SizeDelta: {x: 241.108, y: 66.413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556607290
 MonoBehaviour:
@@ -2870,19 +2886,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  tutorialQuizManager: {fileID: 0}
-  Player: {fileID: 0}
-  Enemy: {fileID: 0}
-  correct: {fileID: 0}
-  wrong: {fileID: 0}
-  PlayerAnimator: {fileID: 0}
-  EnemyAnimator: {fileID: 0}
-  CorrectLetteringAnimator: {fileID: 0}
-  WrongLetteringAnimator: {fileID: 0}
-  firePoint: {fileID: 0}
-  enemyfirePoint: {fileID: 0}
+  tutorialQuizManager: {fileID: 441130430}
+  Player: {fileID: 1778629573}
+  Enemy: {fileID: 1649394846}
+  correct: {fileID: 1700665806}
+  wrong: {fileID: 992904212}
+  PlayerAnimator: {fileID: 1778629574}
+  EnemyAnimator: {fileID: 1649394854}
+  CorrectLetteringAnimator: {fileID: 1700665808}
+  WrongLetteringAnimator: {fileID: 992904214}
+  firePoint: {fileID: 1401142179}
+  enemyfirePoint: {fileID: 1977981362}
   playerWeapon: {fileID: 8837376570795551560, guid: 86478dcd032034753ada76f9ead96729, type: 3}
-  enemyWeapon: {fileID: 745671592188713744, guid: 2e74765e1c3f44919b1596c835e76c8a, type: 3}
+  enemyWeapon: {fileID: 7052653984231068112, guid: cc1750720acba40be80bb6d90aaa04df, type: 3}
 --- !u!114 &1556607291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3208,7 +3224,7 @@ GameObject:
   - component: {fileID: 1649394854}
   m_Layer: 0
   m_Name: Sandworm
-  m_TagString: Untagged
+  m_TagString: DesertWorm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3299,6 +3315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneButton: {fileID: 985741671}
   Player: {fileID: 1778629573}
+  DesertWorm: {fileID: 1649394846}
+  controller: {fileID: 0}
 --- !u!61 &1649394852
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3476,7 +3494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170, y: 132}
+  m_AnchoredPosition: {x: -296.00354, y: -146.00165}
   m_SizeDelta: {x: 235.91, y: 85.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1700665808
@@ -4197,11 +4215,11 @@ PrefabInstance:
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QuestionTxt
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1930148866}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QuestionPanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 766504692}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QnA.Array.size
       value: 4
@@ -4209,23 +4227,23 @@ PrefabInstance:
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: NextSceneButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 985741671}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1972944560}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1556607288}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1482118473}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: options.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1374486863}
     - target: {fileID: 7566733019864603302, guid: 89bd5610fbc3f94439b9c53a413d302e, type: 3}
       propertyPath: QnA.Array.data[0].Question
       value: 'If a method is overloaded, when there are two methods that have the
@@ -4478,7 +4496,7 @@ RectTransform:
   - {fileID: 1947570789}
   - {fileID: 1657041356}
   m_Father: {fileID: 1932635045}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4645,8 +4663,8 @@ RectTransform:
   - {fileID: 1778629572}
   - {fileID: 1649394847}
   - {fileID: 1079271309}
-  - {fileID: 985741670}
   - {fileID: 1932042531}
+  - {fileID: 985741670}
   - {fileID: 1700665807}
   - {fileID: 992904213}
   - {fileID: 601404084}
@@ -4894,8 +4912,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.31, y: -4.859}
-  m_SizeDelta: {x: 214.35, y: 44.235}
+  m_AnchoredPosition: {x: -171.472, y: 6.23}
+  m_SizeDelta: {x: 254.675, y: 66.414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972944562
 MonoBehaviour:
@@ -4910,19 +4928,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  tutorialQuizManager: {fileID: 0}
-  Player: {fileID: 0}
-  Enemy: {fileID: 0}
-  correct: {fileID: 0}
-  wrong: {fileID: 0}
-  PlayerAnimator: {fileID: 0}
-  EnemyAnimator: {fileID: 0}
-  CorrectLetteringAnimator: {fileID: 0}
-  WrongLetteringAnimator: {fileID: 0}
-  firePoint: {fileID: 0}
-  enemyfirePoint: {fileID: 0}
+  tutorialQuizManager: {fileID: 441130430}
+  Player: {fileID: 1778629573}
+  Enemy: {fileID: 1649394846}
+  correct: {fileID: 1700665806}
+  wrong: {fileID: 992904212}
+  PlayerAnimator: {fileID: 1778629574}
+  EnemyAnimator: {fileID: 1649394854}
+  CorrectLetteringAnimator: {fileID: 1700665808}
+  WrongLetteringAnimator: {fileID: 992904214}
+  firePoint: {fileID: 1401142179}
+  enemyfirePoint: {fileID: 1977981362}
   playerWeapon: {fileID: 8837376570795551560, guid: 86478dcd032034753ada76f9ead96729, type: 3}
-  enemyWeapon: {fileID: 745671592188713744, guid: 2e74765e1c3f44919b1596c835e76c8a, type: 3}
+  enemyWeapon: {fileID: 7052653984231068112, guid: cc1750720acba40be80bb6d90aaa04df, type: 3}
 --- !u!114 &1972944563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5228,7 +5246,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1778629574}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -5405,8 +5423,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.700012, y: 51.583}
-  m_SizeDelta: {x: 48.8276, y: 54.3333}
+  m_AnchoredPosition: {x: -11.448, y: 119}
+  m_SizeDelta: {x: 42.323, y: -23.264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076241242
 MonoBehaviour:

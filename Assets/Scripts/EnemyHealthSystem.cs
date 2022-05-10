@@ -14,6 +14,7 @@ public class EnemyHealthSystem : MonoBehaviour
     public static float healthAmount;
     public GameObject NextSceneButton;
     public GameObject Player;
+    public GameObject DesertWorm;
     //bool isDead = false;
     //public int Respawn;
     //public int health;
@@ -30,6 +31,10 @@ public class EnemyHealthSystem : MonoBehaviour
         }
         //health=100;
         healthAmount = 5;
+        if(DesertWorm == GameObject.FindGameObjectWithTag("DesertWorm")){
+            healthAmount = 4;
+        }
+
         rb = GetComponent<Rigidbody2D> ();  
         //NextSceneButton.SetActive(false);
         //healthAmount = 20; 

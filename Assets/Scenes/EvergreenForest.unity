@@ -2242,7 +2242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 84.27002, y: 18.24295}
+  m_AnchoredPosition: {x: 36.6, y: 18.24295}
   m_SizeDelta: {x: 122.0664, y: 67.7749}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &998604425
@@ -3415,7 +3415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.899963, y: 36.570007}
+  m_AnchoredPosition: {x: -15.899963, y: 51}
   m_SizeDelta: {x: 67.1097, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421131411
@@ -3847,6 +3847,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneButton: {fileID: 1990431067}
   Player: {fileID: 1294966545}
+  DesertWorm: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!95 &1496035826
 Animator:
   serializedVersion: 3
