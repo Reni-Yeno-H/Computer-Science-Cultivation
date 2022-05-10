@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 1.7163277
       objectReference: {fileID: 0}
+    - target: {fileID: 7987686155066582907, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 115560445}
     - target: {fileID: 7987686155066582909, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

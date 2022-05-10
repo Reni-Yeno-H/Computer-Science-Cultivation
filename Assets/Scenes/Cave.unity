@@ -1554,6 +1554,7 @@ MonoBehaviour:
   Enemy: {fileID: 1637167138}
   correct: {fileID: 1688716862}
   wrong: {fileID: 269664219}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1070905696}
   EnemyAnimator: {fileID: 1637167142}
   CorrectLetteringAnimator: {fileID: 1688716864}
@@ -2348,6 +2349,7 @@ MonoBehaviour:
   Enemy: {fileID: 1637167138}
   correct: {fileID: 1688716862}
   wrong: {fileID: 269664219}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1070905696}
   EnemyAnimator: {fileID: 1637167142}
   CorrectLetteringAnimator: {fileID: 1688716864}
@@ -2557,6 +2559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaleCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 7987686155066582907, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1070905697}
     - target: {fileID: 7987686155066582909, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3627,6 +3633,7 @@ MonoBehaviour:
   Enemy: {fileID: 1637167138}
   correct: {fileID: 1688716862}
   wrong: {fileID: 269664219}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1070905696}
   EnemyAnimator: {fileID: 1637167142}
   CorrectLetteringAnimator: {fileID: 1688716864}
@@ -4223,6 +4230,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneButton: {fileID: 1248489994}
   Player: {fileID: 1070905697}
+  DesertWorm: {fileID: 0}
+  ScaryTree: {fileID: 0}
+  Yeti: {fileID: 0}
+  Dragon: {fileID: 0}
+  Boss: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!61 &1637167145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5298,6 +5311,7 @@ MonoBehaviour:
   Enemy: {fileID: 1637167138}
   correct: {fileID: 1688716862}
   wrong: {fileID: 269664219}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 1070905696}
   EnemyAnimator: {fileID: 1637167142}
   CorrectLetteringAnimator: {fileID: 1688716864}

@@ -79,6 +79,11 @@ public class Score : MonoBehaviour
         IncrementScore(1);
     }
 
+    public void DeadScore()
+    {
+        IncrementScore(0);
+    }
+
     public void DisplayScore()
     {
         scoreText.text = "Score: " + score;

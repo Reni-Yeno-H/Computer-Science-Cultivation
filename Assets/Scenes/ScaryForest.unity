@@ -744,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 1.8257027
       objectReference: {fileID: 0}
+    - target: {fileID: 7987686155066582907, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 431614937}
     - target: {fileID: 7987686155066582909, guid: c1200d5a9622c4079a43e2dc75c6edb7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1731,6 +1735,7 @@ MonoBehaviour:
   Enemy: {fileID: 837210598}
   correct: {fileID: 1064055150}
   wrong: {fileID: 975894301}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 431614938}
   EnemyAnimator: {fileID: 837210607}
   CorrectLetteringAnimator: {fileID: 1064055152}
@@ -2207,6 +2212,9 @@ MonoBehaviour:
   Player: {fileID: 431614937}
   DesertWorm: {fileID: 0}
   ScaryTree: {fileID: 837210598}
+  Yeti: {fileID: 0}
+  Dragon: {fileID: 0}
+  Boss: {fileID: 0}
   controller: {fileID: 0}
 --- !u!114 &837210604
 MonoBehaviour:
@@ -3675,6 +3683,7 @@ MonoBehaviour:
   Enemy: {fileID: 837210598}
   correct: {fileID: 1064055150}
   wrong: {fileID: 975894301}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 431614938}
   EnemyAnimator: {fileID: 837210607}
   CorrectLetteringAnimator: {fileID: 1064055152}
@@ -4226,6 +4235,7 @@ MonoBehaviour:
   Enemy: {fileID: 837210598}
   correct: {fileID: 1064055150}
   wrong: {fileID: 975894301}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 431614938}
   EnemyAnimator: {fileID: 837210607}
   CorrectLetteringAnimator: {fileID: 1064055152}
@@ -4965,6 +4975,7 @@ MonoBehaviour:
   Enemy: {fileID: 837210598}
   correct: {fileID: 1064055150}
   wrong: {fileID: 975894301}
+  BossDoubleShot: {fileID: 0}
   PlayerAnimator: {fileID: 431614938}
   EnemyAnimator: {fileID: 837210607}
   CorrectLetteringAnimator: {fileID: 1064055152}

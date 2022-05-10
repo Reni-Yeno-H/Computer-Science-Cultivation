@@ -10,7 +10,7 @@ public class HealthSystem : MonoBehaviour
     float dirX, dirY;
     float moveSpeed = 5f;
     public static float healthAmount = 10;
-    //public GameObject Player;
+    public GameObject Player;
 
     /*
     [SerializeField] int score = 0;
@@ -69,7 +69,9 @@ public class HealthSystem : MonoBehaviour
             //enemyDeathAudio(isSpecialBullet);
 
             Die();
-            
+            //int playerScore = Score.score;
+            //Player.GetComponent<Score>().DeadScore();
+            //playerScore = 0;
             //Plane.GetComponent<Score>().IncrementScore();
         }
     }
