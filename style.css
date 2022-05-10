@@ -33,3 +33,15 @@ a {
   /* color: #fff; */
   text-decoration: none;
 }
+
+.container {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+p {
+  color:red;
+  font-size: 35px;
+  text-align: center;
+}
