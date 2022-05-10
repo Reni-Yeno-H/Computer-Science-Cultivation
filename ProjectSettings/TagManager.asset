@@ -10,6 +10,7 @@ TagManager:
   - DesertWorm
   - ScaryTree
   - Yeti
+  - Dragon
   layers:
   - Default
   - TransparentFX

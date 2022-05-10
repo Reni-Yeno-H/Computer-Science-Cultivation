@@ -17,6 +17,7 @@ public class EnemyHealthSystem : MonoBehaviour
     public GameObject DesertWorm;
     public GameObject ScaryTree;
     public GameObject Yeti;
+    public GameObject Dragon;
     //bool isDead = false;
     //public int Respawn;
     //public int health;
@@ -47,6 +48,10 @@ public class EnemyHealthSystem : MonoBehaviour
             healthAmount = 3;
         }
         
+        if(Dragon != null){
+            healthAmount = 7;
+        }
+
         rb = GetComponent<Rigidbody2D> ();  
         //NextSceneButton.SetActive(false);
         //healthAmount = 20; 

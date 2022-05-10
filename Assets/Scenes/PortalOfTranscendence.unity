@@ -4360,6 +4360,7 @@ GameObject:
   - component: {fileID: 1842781325}
   - component: {fileID: 1842781324}
   - component: {fileID: 1842781323}
+  - component: {fileID: 1842781327}
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: Untagged
@@ -4503,6 +4504,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneButton: {fileID: 1198401025}
   Player: {fileID: 2132458614}
+  DesertWorm: {fileID: 0}
+  ScaryTree: {fileID: 0}
+  Yeti: {fileID: 0}
+  Dragon: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!61 &1842781325
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4550,6 +4556,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 6
+--- !u!111 &1842781327
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842781318}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 6386aca9a4900499ab55319f5db53b4e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1846808376
 GameObject:
   m_ObjectHideFlags: 0
