@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
     [SerializeField] Text scoreText;
     [SerializeField] Text healthText;
 
-    public GameObject Player;
+    //public GameObject Player;
     //public int Respawn;
     public int calculatedEnemies;
     //int lastScoreUncalculated;
@@ -39,7 +39,7 @@ public class Score : MonoBehaviour
         }
 
         DisplayPlayerHealth();
-        if(level >= 11)
+        if(level == 11)
         {
             reset();
         }
@@ -51,17 +51,18 @@ public class Score : MonoBehaviour
         int lastScoreUncalculated = staticScore;
         calculatedEnemies = lastScoreUncalculated + totalAmountOfEnemies;
         
-        if (amountKilled < 0)
+        if (amountKilled <= 0){
         
-
-            Debug.Log("Invalid; amount may not be less than zero.");
-        else
+            score = 0;
+            reset();
+            Debug.Log("Player Died. Score Reset");
+        }else{
             //calculatedEnemies = score + totalAmountOfEnemies;
             score += amountKilled;   
             
             PlayerPrefs.SetInt("score", score);
             DisplayScore(); 
-            
+    }
         /*if (score == calculatedEnemies)
         {
             missionComplete = GetComponent<AudioSource>();
@@ -146,6 +147,14 @@ public class Score : MonoBehaviour
         // Debug.Log(playerHealth + "abc");
         // Debug.Log("before");
         healthText.text = "Health: " + playerHealth;
+
+        /*if(playerHealth <= 0.0){
+            reset();
+        }*/
+        /*if(Player == null)
+        {
+            reset();
+        }*/   
         // Debug.Log("after");
     }
     /*public void nextScene(){
