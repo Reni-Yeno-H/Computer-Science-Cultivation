@@ -8,6 +8,7 @@ TagManager:
   - Canvas
   - GameMusic
   - DesertWorm
+  - ScaryTree
   layers:
   - Default
   - TransparentFX

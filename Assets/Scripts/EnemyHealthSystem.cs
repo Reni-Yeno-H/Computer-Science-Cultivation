@@ -15,6 +15,7 @@ public class EnemyHealthSystem : MonoBehaviour
     public GameObject NextSceneButton;
     public GameObject Player;
     public GameObject DesertWorm;
+    public GameObject ScaryTree;
     //bool isDead = false;
     //public int Respawn;
     //public int health;
@@ -25,16 +26,22 @@ public class EnemyHealthSystem : MonoBehaviour
     
     void Start()
     {
+        DesertWorm = GameObject.FindGameObjectWithTag("DesertWorm");
+        ScaryTree = GameObject.FindGameObjectWithTag("ScaryTree");
         if (controller == null)
         {
             controller = GameObject.FindGameObjectWithTag("GameController");
         }
         //health=100;
         healthAmount = 5;
-        if(DesertWorm == GameObject.FindGameObjectWithTag("DesertWorm")){
+        if(DesertWorm != null){
             healthAmount = 4;
         }
 
+        if(ScaryTree != null){
+            healthAmount = 3;
+        }
+        
         rb = GetComponent<Rigidbody2D> ();  
         //NextSceneButton.SetActive(false);
         //healthAmount = 20; 
