@@ -2496,18 +2496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: 
   playerScore: 0
-  nameTexts:
-  - {fileID: 1679745357}
-  - {fileID: 826479283}
-  - {fileID: 183170422}
-  - {fileID: 671811682}
-  - {fileID: 1015388593}
-  scoreTexts:
-  - {fileID: 1783503890}
-  - {fileID: 834047735}
-  - {fileID: 1623492933}
-  - {fileID: 1352377258}
-  - {fileID: 1518769094}
+  nameTxts: []
+  scoreTxts: []
 --- !u!1 &792919663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,7 +3231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945705275}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4d34b0cc70c1465e962f3d4275f983f, type: 3}
   m_Name: 
