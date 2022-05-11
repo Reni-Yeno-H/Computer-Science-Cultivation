@@ -345,7 +345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &397456811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397456810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4d34b0cc70c1465e962f3d4275f983f, type: 3}
   m_Name: 
@@ -389,6 +389,8 @@ GameObject:
   m_Component:
   - component: {fileID: 457153610}
   - component: {fileID: 457153609}
+  - component: {fileID: 457153611}
+  - component: {fileID: 457153612}
   m_Layer: 0
   m_Name: HighScores
   m_TagString: Untagged
@@ -408,9 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c24eeb5c8d34f819663aa9b5fa11fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: 
   playerScore: 0
-  nameTxts: []
   scoreTxts:
   - {fileID: 541956899}
   - {fileID: 1297284594}
@@ -431,6 +431,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &457153611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457153608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753b41fc1b22748a19ba2b345d11c835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 0
+--- !u!114 &457153612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457153608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027ef8fbbf9fe416ab7fcbfc41699e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreTxt: {fileID: 541956899}
+  levelTxt: {fileID: 4226811666416649035, guid: d737ab73628bd41219f5cb4019814d52, type: 3}
+  level: 0
+  scoreThresholdForThisLevel: 0
 --- !u!1 &541956896
 GameObject:
   m_ObjectHideFlags: 0
