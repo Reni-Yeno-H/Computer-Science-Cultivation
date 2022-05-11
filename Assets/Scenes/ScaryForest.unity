@@ -322,6 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 0
+  playerName: 
 --- !u!4 &157254502
 Transform:
   m_ObjectHideFlags: 0
@@ -1310,6 +1311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 431614937}
+  controller: {fileID: 277455754}
+  persist: {fileID: 157254500}
 --- !u!1 &498965888
 GameObject:
   m_ObjectHideFlags: 0

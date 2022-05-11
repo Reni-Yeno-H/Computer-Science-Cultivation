@@ -38,15 +38,15 @@ public class ScoreKeeper : MonoBehaviour
         
         if(level == 12)
         {
-            Reset();
+            Reset(0);
         }
     }
 
     public void UpdateScore(int addend)
     {
-        if(addend <= 0){
+        if(addend < 0){
             score = 0;
-            Reset();
+            Reset(0);
         }else{
 
         
@@ -81,8 +81,11 @@ public class ScoreKeeper : MonoBehaviour
         levelTxt.text = "Level " + levelToDisplay;
     }   
 
-    public void Reset()
+    public void Reset(int addend)
     {
-        UpdateScore(0);
+        if(addend == 0){
+            score = 0;
+            
+        }
     }
 }

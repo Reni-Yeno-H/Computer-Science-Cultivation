@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7163981074966125765}
   - component: {fileID: 7593553795308716481}
   - component: {fileID: 8606615426408051006}
+  - component: {fileID: -9065393176987403991}
   m_Layer: 0
   m_Name: SwordProjectile
   m_TagString: Untagged
@@ -193,3 +194,16 @@ MonoBehaviour:
   damage: 1
   rb: {fileID: 7163981074966125765}
   impactEffect: {fileID: 812135182355430671, guid: 6ab655acd668046cc8f11dff60e8c85c, type: 3}
+--- !u!114 &-9065393176987403991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8837376570795551560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1b066a7964542a088f5fcabedfed42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 10

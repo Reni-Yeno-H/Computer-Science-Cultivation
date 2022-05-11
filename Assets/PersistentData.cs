@@ -47,6 +47,11 @@ public class PersistentData : MonoBehaviour
         playerScore = s;
     }
 
+    public void Reset()
+    {
+        SetScore(0);
+    }
+
     public string GetName()
     {
         return playerName;

@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 0
+  playerName: 
 --- !u!4 &103338172
 Transform:
   m_ObjectHideFlags: 0
@@ -3911,6 +3912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1070905697}
+  controller: {fileID: 1305520450}
+  persist: {fileID: 103338170}
 --- !u!1 &1494118230
 GameObject:
   m_ObjectHideFlags: 0
