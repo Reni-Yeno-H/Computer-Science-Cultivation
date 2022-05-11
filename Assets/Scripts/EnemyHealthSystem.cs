@@ -136,9 +136,9 @@ public class EnemyHealthSystem : MonoBehaviour
         }*/
         if(healthAmount <= 0){
             Die();
-            Player.GetComponent<Score>().IncrementScore();
-            //controller.GetComponent<ScoreKeeper>().UpdateScore();
-            Player.GetComponent<ScoreKeeper>().UpdateScore();
+            //Player.GetComponent<Score>().IncrementScore();
+            controller.GetComponent<ScoreKeeper>().UpdateScore();
+            //Player.GetComponent<ScoreKeeper>().UpdateScore();
             //Update score for persistent data
         }
     }

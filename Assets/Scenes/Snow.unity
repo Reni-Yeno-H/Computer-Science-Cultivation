@@ -2896,7 +2896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -5.3452
+      value: -12.64
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697080, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2917,6 +2917,10 @@ PrefabInstance:
     - target: {fileID: 3999067192986697081, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_Name
       value: NextSceneButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999067192986697081, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}

@@ -1437,7 +1437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697081, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_Name
-      value: NextSceneButton
+      value: BackMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 3999067192986697081, guid: 6ff0dc20bac8445dfbba48424a855811, type: 3}
       propertyPath: m_IsActive
