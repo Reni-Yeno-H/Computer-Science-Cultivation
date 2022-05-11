@@ -39,7 +39,7 @@ public class Score : MonoBehaviour
         }
 
         DisplayPlayerHealth();
-        if(level == 11 || level == 12)
+        if(level == 12)
         {
             reset();
         }

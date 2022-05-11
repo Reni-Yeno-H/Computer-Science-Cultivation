@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class ScoreKeeper : MonoBehaviour
 {
     [SerializeField] int score;
-    const int DEFAULT_POINTS = 1;
+    //const int DEFAULT_POINTS = 1;
+    //int DEFAULT_POINTS = 1;
     [SerializeField] Text scoreTxt;
     [SerializeField] Text levelTxt;
     [SerializeField] int level;
@@ -49,7 +50,8 @@ public class ScoreKeeper : MonoBehaviour
 
     public void UpdateScore()
     {
-        UpdateScore(DEFAULT_POINTS);
+        //UpdateScore(DEFAULT_POINTS);
+        UpdateScore(1);
     }
 
     public void DisplayScore()
