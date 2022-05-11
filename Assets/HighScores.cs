@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class HighScores : MonoBehaviour
 {
     const int NUM_HIGH_SCORES = 5;
-    //const string NAME_KEY = "Player";
+    const string NAME_KEY = "Player";
     const string SCORE_KEY = "Score";
 
-    //[SerializeField] string playerName;
+    [SerializeField] string playerName;
     [SerializeField] int playerScore;
 
-    //[SerializeField] Text[] nameTxts;
+    [SerializeField] Text[] nameTxts;
     [SerializeField] Text[] scoreTxts;
 
     // Start is called before the first frame update
     void Start()
     {
-        //playerName = PersistentData.Instance.GetName();
+        playerName = PersistentData.Instance.GetName();
         playerScore = PersistentData.Instance.GetScore();
 
         SaveScore();
@@ -29,7 +29,7 @@ public class HighScores : MonoBehaviour
     {
         for (int i = 1; i <= NUM_HIGH_SCORES; i++)
         {
-            //string currentNameKey = NAME_KEY + i;
+            string currentNameKey = NAME_KEY + i;
             string currentScoreKey = SCORE_KEY + i;
 
             if (PlayerPrefs.HasKey(currentScoreKey))
@@ -38,19 +38,19 @@ public class HighScores : MonoBehaviour
                 if (playerScore > currentScore)
                 {
                     int tempScore = currentScore;
-                    //string tempName = PlayerPrefs.GetString(currentNameKey);
+                    string tempName = PlayerPrefs.GetString(currentNameKey);
 
-                    //PlayerPrefs.SetString(currentNameKey, playerName);
+                    PlayerPrefs.SetString(currentNameKey, playerName);
                     PlayerPrefs.SetInt(currentScoreKey, playerScore);
 
-                    //playerName = tempName;
+                    playerName = tempName;
                     playerScore = tempScore;
                 }
 
             }
             else
             {
-               // PlayerPrefs.SetString(currentNameKey, playerName);
+                PlayerPrefs.SetString(currentNameKey, playerName);
                 PlayerPrefs.SetInt(currentScoreKey, playerScore);
                 return;
             }
@@ -61,6 +61,7 @@ public class HighScores : MonoBehaviour
     {
         for (int i = 0; i <  NUM_HIGH_SCORES; i++)
         {
+            //nameTxts[i].text = PlayerPrefs.GetString(NAME_KEY + (i+1));
             scoreTxts[i].text = PlayerPrefs.GetInt(SCORE_KEY + (i+1)).ToString();
         }
 

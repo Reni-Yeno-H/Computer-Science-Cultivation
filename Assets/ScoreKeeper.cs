@@ -30,22 +30,38 @@ public class ScoreKeeper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int level = SceneManager.GetActiveScene().buildIndex;
+        if(score < 0){
+            score = 0;
+        }
 
+        
+        if(level == 12)
+        {
+            Reset();
+        }
     }
 
     public void UpdateScore(int addend)
     {
+        if(addend <= 0){
+            score = 0;
+            Reset();
+        }else{
+
+        
         score += addend;
         Debug.Log("score" + score);
         //display score
         DisplayScore();
         PersistentData.Instance.SetScore(score);
 
-        if (score >= scoreThresholdForThisLevel)
+        }
+        /*if (score >= scoreThresholdForThisLevel)
         {
             //move on to next level
             SceneManager.LoadScene(level + 1);
-        }
+        }*/
     }
 
     public void UpdateScore()
@@ -64,4 +80,9 @@ public class ScoreKeeper : MonoBehaviour
         int levelToDisplay = level;
         levelTxt.text = "Level " + levelToDisplay;
     }   
+
+    public void Reset()
+    {
+        UpdateScore(0);
+    }
 }
