@@ -1,11 +1,12 @@
 # Computer-Science-Cultivation 💻:
-`Objective:` A game based on enhancing the ways students may learn computer science (Java and C++), hosted from a custom-made website. 
+`Objective:` A game based on enhancing the ways students may learn computer science (Java ~~and C++~~), hosted from a custom-made website. 
 For CISC 4900 with a team of four people to work under an agile development model that matches real work experiences.
+<br/>
+<br/>
+~~/*under-construction*/.~~  --> Ready!
+<br/>
+To play the game, visit our website by clicking [here](https://reni-yeno-h.github.io/Computer-Science-Cultivation/)
 
-To play the game, visit our website by clicking [here](https://reni-yeno-h.github.io/Computer-Science-Cultivation/) 
-<p><del>/*under-construction*/.</p>  --> Ready
-<br/>
-<br/>
 Tentatively speaking with teaching computer science (may be changed in depth):
 - [ ] Java should cover CISC 1115, CISC 3115, CISC 3130.
 - [ ] C++ should cover CISC 3142.
@@ -222,8 +223,7 @@ Game Cover Animation:
       
 #### May 12th, 2022:
 
-<p><del>## Deadline: BEFORE May 24th, 2022. -End of Spring Term</p>
-<p><del>### Hopefully project is live by then. 😅</p>
-<br/>
+~~## Deadline: BEFORE May 24th, 2022. -End of Spring Term~~
+~~### Hopefully project is live by then. 😅~~
 <br/>
 #### Project published on May 12th, 2022
