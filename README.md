@@ -204,23 +204,26 @@ Game Cover Animation:
 - [x] (Hao Ren Yuan) Added menu buttons functionality, linking pre/post survey testing questions to game, enemy health and projectile functionality, UI settings functionality.
 
 #### May 2nd, 2022:
+- [x] (Simon Hsia) Tested functionalities of BambooVillage before fully adding parts to the rest of the game
       
 #### May 3rd, 2022:
-      
+ - [x] (Simon Hsia) Continued Testing functionalities of BambooVillage map before fully adding parts to the rest of the game
 #### May 5th, 2022:
-      
+ - [x] (Simon Hsia) Started adding proper items to the game
+ - [x] (Simon Hsia) Started developing the website for the game
 #### May 6th, 2022:
-      
+ 
 #### May 7th, 2022:
-      
+- [x] (Jacklyn Yoon) Added volume functionality to game
+  
 #### May 8th, 2022:
       
 #### May 9th, 2022:
-      
+ - [x] (Jacklyn Yoon) Started Adding Highscore functionality to game
 #### May 10th, 2022:
-      
+ - [x] (Simon Hsia) Finished developing the website for the game     
 #### May 11th, 2022:
-      
+ - [x] (Jacklyn Yoon) Finished adding Adding Highscore functionality to game   
 #### May 12th, 2022:
 
 ~~## Deadline: BEFORE May 24th, 2022. -End of Spring Term~~
