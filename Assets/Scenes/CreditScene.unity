@@ -1047,10 +1047,10 @@ RectTransform:
   m_Father: {fileID: 544508202}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.837, y: -155.7496}
-  m_SizeDelta: {x: 172.1877, y: 645.6432}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -110.047516, y: -155.7496}
+  m_SizeDelta: {x: 136.6087, y: 545.6432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049973826
 MonoBehaviour:
@@ -1074,7 +1074,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1323,10 +1323,10 @@ RectTransform:
   m_Father: {fileID: 544508202}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87.145, y: -155.75}
-  m_SizeDelta: {x: 157.7757, y: 645.64}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 177.19904, y: -155.75}
+  m_SizeDelta: {x: 237.878, y: 545.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772459749
 MonoBehaviour:
@@ -1350,7 +1350,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1361,9 +1361,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\n\nHao Ren Yuan\nPui San Yoon\nYiXiong Cao\nSimon Hsia \n(and Simon's
-    Cousin)\n\nHao Ren Yuan\nPui San Yoon\nSimon Hsia\n\nHao Ren Yuan\nSimon Hsia\n\n\n\nMoshe
-    Lach\n\nKatherine Chuang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  m_Text: "\n\nHao Ren Yuan\nPui San Yoon\nYiXiong Cao\nSimon Hsia \n\n\nHao Ren
+    Yuan\nPui San Yoon\nSimon Hsia\n\nHao Ren Yuan\nSimon Hsia\n\n\n\nMoshe Lach\n\nKatherine
+    Chuang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 --- !u!222 &1772459750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1831,8 +1831,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198, y: 183}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -335.15756, y: 226.94748}
+  m_SizeDelta: {x: 111.6848, y: 46.1051}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010348100
 MonoBehaviour:
@@ -1856,7 +1856,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -1975,10 +1975,10 @@ RectTransform:
   m_Father: {fileID: 544508202}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 29.530212, y: -631}
-  m_SizeDelta: {x: 359.0604, y: 329.3708}
+  m_SizeDelta: {x: 259.0604, y: 229.37079}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095040444
 MonoBehaviour:
