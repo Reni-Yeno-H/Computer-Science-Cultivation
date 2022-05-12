@@ -2,8 +2,10 @@
 `Objective:` A game based on enhancing the ways students may learn computer science (Java and C++), hosted from a custom-made website. 
 For CISC 4900 with a team of four people to work under an agile development model that matches real work experiences.
 
-To play the game, visit our website by clicking [here](TBA) (TBA) /*under-construction*/.
-
+To play the game, visit our website by clicking [here](https://reni-yeno-h.github.io/Computer-Science-Cultivation/) 
+<p><del>/*under-construction*/.</p>  --> Ready
+<br/>
+<br/>
 Tentatively speaking with teaching computer science (may be changed in depth):
 - [ ] Java should cover CISC 1115, CISC 3115, CISC 3130.
 - [ ] C++ should cover CISC 3142.
@@ -200,9 +202,28 @@ Game Cover Animation:
 #### April 22th - May 1st, 2022:
 - [x] (Hao Ren Yuan) Added menu buttons functionality, linking pre/post survey testing questions to game, enemy health and projectile functionality, UI settings functionality.
 
-#### May 1st-__th, 2022:
-#### June 1st-__th, 2022:
-#### July 1st-__th, 2022:
+#### May 2nd, 2022:
+      
+#### May 3rd, 2022:
+      
+#### May 5th, 2022:
+      
+#### May 6th, 2022:
+      
+#### May 7th, 2022:
+      
+#### May 8th, 2022:
+      
+#### May 9th, 2022:
+      
+#### May 10th, 2022:
+      
+#### May 11th, 2022:
+      
+#### May 12th, 2022:
 
-## Deadline: BEFORE May 24th, 2022. -End of Spring Term
-### Hopefully project is live by then. 😅
+<p><del>## Deadline: BEFORE May 24th, 2022. -End of Spring Term</p>
+<p><del>### Hopefully project is live by then. 😅</p>
+<br/>
+<br/>
+#### Project published on May 12th, 2022
