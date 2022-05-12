@@ -672,7 +672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: -371}
+  m_AnchoredPosition: {x: -40, y: 642}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &544508203
@@ -1049,8 +1049,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.837, y: -9.6968}
-  m_SizeDelta: {x: 172.1877, y: 353.5376}
+  m_AnchoredPosition: {x: -77.837, y: -155.7496}
+  m_SizeDelta: {x: 172.1877, y: 645.6432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049973826
 MonoBehaviour:
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\t\t\tProject Roles:\n\n\t  Artists/Animators\n\n\n\n\n\n\t\t\t Programmers\n\n\n\n\t\t\t  
     Project Lead\n\n\n    Special Thanks To:\n\t\t\n    Supervisor/Mentor\n\n CISC
-    4900 Professor\n\n\n\n"
+    4900 Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 --- !u!222 &1049973827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1325,8 +1325,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87.145, y: -9.6968}
-  m_SizeDelta: {x: 157.7757, y: 353.5335}
+  m_AnchoredPosition: {x: 87.145, y: -155.75}
+  m_SizeDelta: {x: 157.7757, y: 645.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772459749
 MonoBehaviour:
@@ -1363,7 +1363,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\n\nHao Ren Yuan\nPui San Yoon\nYiXiong Cao\nSimon Hsia \n(and Simon's
     Cousin)\n\nHao Ren Yuan\nPui San Yoon\nSimon Hsia\n\nHao Ren Yuan\nSimon Hsia\n\n\n\nMoshe
-    Lach\n\nKatherine Chuang\n"
+    Lach\n\nKatherine Chuang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 --- !u!222 &1772459750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1977,7 +1977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.530212, y: -374}
+  m_AnchoredPosition: {x: 29.530212, y: -631}
   m_SizeDelta: {x: 359.0604, y: 329.3708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095040444
