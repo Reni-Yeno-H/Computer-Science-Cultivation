@@ -8,12 +8,12 @@ For CISC 4900 with a team of four people to work under an agile development mode
 To play the game, visit our website by clicking [here](https://reni-yeno-h.github.io/Computer-Science-Cultivation/)
 
 Tentatively speaking with teaching computer science (may be changed in depth):
-- [ ] Java should cover CISC 1115, CISC 3115, CISC 3130.
-- [ ] C++ should cover CISC 3142.
+- [x] Java should cover CISC 1115, CISC 3115, CISC 3130.
+~~- [ ] C++ should cover CISC 3142.~~
 
 Project constraints:
-- [ ] Time. ⏲️
-- [ ] Other assignments and life duties. 💼
+- [x] Time. ⏲️
+- [x] Other assignments and life duties. 💼
 
 Game Cover Animation:
 
