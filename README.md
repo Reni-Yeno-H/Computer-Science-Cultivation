@@ -258,7 +258,7 @@ Game Cover Animation:
 - [x] (Hao Ren Yuan) Adding changes to custom website.
 - [x] (Hao Ren Yuan) Fixed scaling for menu buttons and added credit scene scrolling effect.
 
-~~## Deadline: BEFORE May 24th, 2022. -End of Spring Term~~
-~~### Hopefully project is live by then. 😅~~
+## ~~Deadline: BEFORE May 24th, 2022. -End of Spring Term~~
+### ~~Hopefully project is live by then. 😅~~
 <br/>
 #### Project published on May 12th, 2022
