@@ -9,7 +9,7 @@ To play the game, visit our website by clicking [here](https://reni-yeno-h.githu
 
 Tentatively speaking with teaching computer science (may be changed in depth):
 - [x] Java should cover CISC 1115, CISC 3115, CISC 3130.
-~~- [ ] C++ should cover CISC 3142.~~
+- [ ] ~~C++ should cover CISC 3142.~~
 
 Project constraints:
 - [x] Time. ⏲️
