@@ -1,6 +1,6 @@
 # Computer-Science-Cultivation 💻:
 `Objective:` A game based on enhancing the ways students may learn computer science (Java ~~and C++~~), hosted from a custom-made website. 
-For CISC 4900 with a team of four people to work under an agile development model that matches real work experiences.
+For CISC 4900 with a team of four people to work under an agile software development life cycle model that matches real work experiences.
 <br/>
 <br/>
 ~~/*under-construction*/.~~  --> Ready!
