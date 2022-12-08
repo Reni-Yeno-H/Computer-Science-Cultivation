@@ -19,6 +19,10 @@ Game Cover Animation:
 
 <img src=https://user-images.githubusercontent.com/70453770/160656743-dc38f1c6-aba3-4fed-86c6-45d05b2d2af8.gif width="400" height="450">
 
+Map Designations:
+
+![Map](https://user-images.githubusercontent.com/70453770/206548984-442df6c9-6acf-4bb9-8e8d-b467fba162e6.png)
+
 
 ## Documentation/Daily log 📝:
 
