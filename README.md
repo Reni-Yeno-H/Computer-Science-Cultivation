@@ -21,7 +21,7 @@ Game Cover Animation:
 
 Map Designations:
 
-![Map](https://user-images.githubusercontent.com/70453770/206548984-442df6c9-6acf-4bb9-8e8d-b467fba162e6.png)
+![Map](https://user-images.githubusercontent.com/70453770/206549146-85a8ec50-904c-4c61-a25d-cacd0eaefd75.png)
 
 
 ## Documentation/Daily log 📝:
