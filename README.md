@@ -1,6 +1,6 @@
 # Computer-Science-Cultivation 💻:
 `Objective:` A game based on enhancing the ways students may learn computer science (Java ~~and C++~~), hosted from a custom-made website. 
-For CISC 4900 with a team of four people to work under an Kanban-based software development life cycle to simulate technical Java questions asked in a creative context.
+As part of CISC 4900, our team of four junior developers is building a project under a Kanban-based software development life cycle to simulate technical Java questions through a creative, game-based learning experience.
 <br/>
 <br/>
 ~~/*under-construction*/.~~  --> Ready!
