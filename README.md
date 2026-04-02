@@ -25,7 +25,6 @@ Map Designations:
 
 ![Map](https://user-images.githubusercontent.com/70453770/206549146-85a8ec50-904c-4c61-a25d-cacd0eaefd75.png)
 
-
 ## Documentation/Daily log 📝:
 
 #### Jan 10th - 14th, 2022:
